@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: rgb(139, 187, 121);
+    background-color:#35502B;
     border-radius: 5px;
     padding: 5px 5px 15px 5px;
     color: white;
@@ -24,7 +24,7 @@ header h1 {
 }
 
 footer {
-    background-color: rgb(139, 187, 121);
+    background-color: #35502B;
     border-radius: 5px;
     padding: 5px;
     text-align: center;
