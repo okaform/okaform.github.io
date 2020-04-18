@@ -1,1 +1,49 @@
+body {
+    background-color: #444444;
+}
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 15px;
+    background-color: azure;
+    border-radius: 5px;
+
+}
+
+header {
+    background-color: rgb(139, 187, 121);
+    border-radius: 5px;
+    padding: 5px 5px 15px 5px;
+    color: white;
+    text-align: center;
+
+}
+header h1 {
+    display: inline;
+}
+
+footer {
+    background-color: rgb(139, 187, 121);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+
+}
+footer a {
+    color: white;
+}
+
+
+img {
+    width: 25%;
+    float: right;
+    border-radius: 5px;
+
+}
+
+#currentDate {
+    color: rebeccapurple;
+}
 
