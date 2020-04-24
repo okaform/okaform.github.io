@@ -45,6 +45,7 @@ footer a {
 
 img {
     width: 25%;
+    float: right;
     border-radius: 5px;
 
 }
