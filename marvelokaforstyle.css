@@ -19,7 +19,13 @@ header {
     text-align: center;
 
 }
+
 header h1 {
+    display: inline;
+    font-size: 1.5em;
+}
+
+h2 {
     display: inline;
 }
 h1, h2, h3, h4 {
@@ -44,7 +50,7 @@ footer a {
 
 
 img {
-    width: 25%;
+    width: 100%;
     border-radius: 5px;
 
 }
