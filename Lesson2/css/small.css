@@ -1,7 +1,16 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
     #content {
+        widows: 95%;
         display: block;
     }
+    h1 {
+        padding-top: 15px;
+    }
+    
+    h2 {
+        padding-bottom: 15px;
+    }
+
     .visual-hierachy {
         margin-bottom: 15px;
     }
