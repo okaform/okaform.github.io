@@ -3,10 +3,12 @@ body {
 }
 
 #content {
-    width: 70%;
+    /*overflow: hidden;*/
+    width: 80%;
     margin: 0 auto;
     padding: 15px;
-    background-color: azure;
+    background-color: white;
+    /*background-color: azure;*/
     border-radius: 5px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -26,24 +28,24 @@ header {
 .visual-hierachy {
     grid-column: 1/2;
     border-radius: 15px;
-    background-color: #F0EEEE;
-    width: 415px;
+    background-color: #ECECEC;
+   /* width: 415px;*/
     overflow: hidden;
 }
 
 .repetition {
     grid-column: 2/3;
     border-radius: 15px;
-    background-color: #F0EEEE;
-    width: 415px;
+    background-color: #ECECEC;
+    /*width: 415px;*/
     overflow: hidden;
 }
 
 .hicks-law {
     grid-column: 3/4;
     border-radius: 15px;
-    background-color: #F0EEEE;
-    width: 415px;
+    background-color: #ECECEC;
+    /*width: 415px;*/
     overflow: hidden;
 }
 
@@ -74,5 +76,5 @@ img {
     border: 2px solid black; 
     margin-left: 15px; 
     margin-top: 10px;
-  
+
 }

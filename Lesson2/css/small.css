@@ -1,0 +1,28 @@
+@media screen and (max-width:800px) {
+    #content {
+        display: block;
+    }
+    .visual-hierachy {
+        margin-bottom: 15px;
+    }
+    
+    .repetition {
+       
+        border-radius: 15px;
+        background-color: #F0EEEE;
+        overflow: hidden;
+        margin-bottom: 15px;
+    }
+    
+    .hicks-law {
+       
+        border-radius: 15px;
+        background-color: #F0EEEE;
+        overflow: hidden;
+        
+    }
+    img {
+        width: 100%;
+    
+    }
+}
