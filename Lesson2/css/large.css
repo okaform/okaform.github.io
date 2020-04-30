@@ -7,7 +7,7 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 15px;
-    background-color: white;
+    background-color: rgb(94, 94, 94);
     /*background-color: azure;*/
     border-radius: 5px;
     display: grid;

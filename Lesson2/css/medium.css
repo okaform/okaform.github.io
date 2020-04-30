@@ -3,7 +3,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 15px;
-        background-color: black;
+        /*background-color: black;*/
     }
 
     .visual-hierachy {
