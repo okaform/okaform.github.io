@@ -1,12 +1,18 @@
-@media screen and (max-width:1225px) {
+@media screen and (min-width:800px) {
+
     #content {
         display: grid;
+        margin: 0 auto;
+        padding: 0 15px;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 15px;
-        /*background-color: black;*/
+    }
+    header {
+        grid-column: 1/3;
     }
 
     .visual-hierachy {
+        margin-bottom: 0;
         grid-column: 1/2;
         border-radius: 15px;
         background-color: #F0EEEE;
@@ -14,6 +20,7 @@
     }
     
     .repetition {
+        margin-bottom: 0;
         grid-column: 2/3;
         border-radius: 15px;
         background-color: #F0EEEE;
@@ -21,6 +28,7 @@
     }
 
     .hicks-law {
+        margin-bottom: 0;
         grid-column: 1/3;
         border-radius: 15px;
         background-color: #F0EEEE;
