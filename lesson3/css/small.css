@@ -178,3 +178,12 @@ h1, h2, h3, h4 {
     background-color: #E7C24F;
 }
 
+/*Target Audience*/
+
+.persona {
+    display: block;
+}
+
+.persona img {
+    width: 30%;
+}
