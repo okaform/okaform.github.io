@@ -32,13 +32,12 @@ header h2 {
 }
 
 nav {
-    background-color: yellow;
+    background-color: #E7C24F;
     text-align: center;
     box-shadow: 0 2px 15px gray;
 }
 
 nav ul {
-    display: block;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -64,9 +63,6 @@ nav a:hover {
 
 
 
-
-
-
 p, a {
     padding-left: 15px;
     padding-right: 15px;
@@ -79,4 +75,102 @@ p, a {
 
 h1, h2, h3, h4 {
     font-family: 'Roboto Mono', monospace;
+}
+
+
+/*For Color Scheme*/
+.colors {
+    width: 100%;
+    text-align: center;
+}
+.colors tr {
+    padding: 15px;
+}
+
+.colors th { 
+    background-color: #a39a9a;
+    height: 3em;
+
+}
+
+.colors td {   
+    height: 3em;
+}
+
+.colors .primary {
+    background-color:#35502B;
+}
+.colors .secondary {
+    background-color: #E7C24F;
+}
+.colors .accent1 {
+    background-color: #D9CAB3;
+}
+.colors .accent2 {
+    background-color: #454955;
+}
+
+/*Typography*/
+.container {
+    overflow-x: auto;
+}
+.typography {
+    text-align: left;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.typography tr, .typography td, .typography th {
+    height: 3em;
+    padding-left: 0.5em;
+    border: 1px solid black;
+}
+
+.fortypexel, .sixteenFpexel {
+    background-color: #35502B;
+    color: white;
+}
+
+.sixteenPpexel {
+    background-color: #E7C24F;
+    font-family: 'Roboto Mono';
+}
+
+.sixteenFpexel {
+    font-family: 'Roboto Mono';
+}
+
+.fortypexel {
+    font-size: 40px;
+    font-family: 'Roboto Mono';
+    padding-left: 0;
+}
+
+.header1, .header2, .header3 {
+    font-family: 'Roboto Mono';
+}
+
+.paragrapgh, .linkText {
+    font-family: 'Comic Neue';
+}
+
+.header1 {
+    font-size: 32px;
+}
+
+.header2 {
+    font-size: 24px;
+}
+
+.header3 {
+    font-size: 18px;
+}
+
+.green1 {
+    background-color: #35502B;
+}
+
+.yellow {
+    background-color: #E7C24F;
 }
