@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #444444;
+    font-size: 16px;
+}
+
+#content {
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+}
+
+p, a {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    font-family: 'Comic Neue', cursive;
+    line-height: 1.5em;
+
+}
+
+li, button {
+    font-family: 'Comic Neue', cursive;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+header div {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 110px auto;
+    grid-template-rows: 1fr;
+}  
+
+header {
+    background-color:#35502B;
+    grid-row: 1;
+}
+
+header div h1 {
+    grid-column: 2/3;
+    margin: 0;
+    grid-row: 1;
+    padding-top: 15px;
+    font-size: 1.5em;
+}
+
+
+header div p {
+    grid-column: 2/3;
+    grid-row: 1;
+    margin-top: 50px;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+header div img {
+    width: 100%;
+    float: left;
+    grid-row: 1;
+}
+
+nav {
+    background-color: #E7C24F;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+}
+
+
+
+nav button {
+    border: none; 
+    font-size: 1.2rem;
+    background-color: #E7C24F;
+    padding: 0.8rem;
+    width: 375px;
+    text-align: center;
+    margin: 0;
+}
+
+
+nav button:hover {
+    background-color: #35502B;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    padding: 0.8rem;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 1.2rem;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li a:hover {
+    background-color: #35502B;
+    color: white;
+
+}
+
+nav ul.hide {
+    display: none;
+}
