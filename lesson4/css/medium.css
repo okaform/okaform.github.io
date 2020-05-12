@@ -1,17 +1,4 @@
-@media screen and (min-width: 858px) {
-    nav ul {
-        display: flex; 
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    nav ul li {
-        flex: 1 1 100%;
-    }
-    
-    nav ul li a {
-        border-top: none;
-    }
+@media screen and (min-width: 32.5em) {
 
     #content {
         width: 80%;
@@ -25,16 +12,18 @@
         display: none; 
     }
 
-    nav ul.hide {
-        display: flex;
-    }
 
-    header div h1 {
-        font-size: 2em;
-    }
+
     
     
     header div p {
         font-size: 1em;
     }
+
+    /*main*/ 
+    .contentbox {
+        background-color: #acf;
+        width: 80%;
+    }
+
 }

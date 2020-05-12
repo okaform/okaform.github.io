@@ -20,9 +20,10 @@
         </div>
     </header>
 
-    <nav> 
+    <nav class="clearfix"> 
         <button id ="changeSymbol" onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
             <li><a href="preston-4.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
@@ -30,17 +31,19 @@
             <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
-    <div id="content">
-
-
         <main>
-
+            <h2>Preston Idaho</h2>
+            <div class="contentbox">Hero w/ weather summary</div>
+            <div class="contentbox forecast">5 Day Forecast</div>
+            <div class="contentbox">Article</div>
+            <div class="contentbox">Contact Information</div>
         </main>
 
         <footer>
+            <p>&copy; Best Weathersite | Attributions | Marvellous Okafor</p>
+            <p>Last Updated: <span id="modifiedDate"></span></p>
 
         </footer>
-    </div>
     <script src="js/prestonscript.js"></script>
 </body>
 </html>

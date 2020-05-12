@@ -1,0 +1,30 @@
+@media screen and (min-width: 56em) {
+    nav ul {
+        display: flex; 
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    
+    nav ul li a {
+        border-top: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    header div h1 {
+        font-size: 2em;
+    }
+
+    /*main*/ 
+        .contentbox {
+            background-color: #aa2;
+        }
+
+        
+}
