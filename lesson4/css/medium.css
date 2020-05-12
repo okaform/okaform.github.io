@@ -28,4 +28,13 @@
     nav ul.hide {
         display: flex;
     }
+
+    header div h1 {
+        font-size: 2em;
+    }
+    
+    
+    header div p {
+        font-size: 1em;
+    }
 }

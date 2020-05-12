@@ -58,6 +58,7 @@ header div p {
     margin-top: 50px;
     padding-top: 5px;
     margin-bottom: 0;
+    font-size: 0.8em;
 }
 
 header div img {
@@ -79,7 +80,7 @@ nav button {
     font-size: 1.2rem;
     background-color: #E7C24F;
     padding: 0.8rem;
-    width: 375px;
+    width: 100%;
     text-align: center;
     margin: 0;
 }
