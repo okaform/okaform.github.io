@@ -8,22 +8,19 @@
         width: 69%; 
     }
 
-    button {
-        display: none; 
-    }
-
-
-
-    
-    
     header div p {
         font-size: 1em;
     }
 
     /*main*/ 
-    .contentbox {
-        background-color: #acf;
+    main {
         width: 80%;
     }
+    
+    .contentbox {
+        background-color: #acf;
+    }
+
+
 
 }

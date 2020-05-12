@@ -1,4 +1,4 @@
-@media screen and (min-width: 56em) {
+@media screen and (min-width: 65em) {
     nav ul {
         display: flex; 
         width: 80%;
@@ -21,10 +21,20 @@
         font-size: 2em;
     }
 
+    
+    button {
+        display: none; 
+    }
+ 
+
     /*main*/ 
         .contentbox {
             background-color: #aa2;
         }
 
+     /*footer*/
+        footer {
+            width: 90%;
+        }
         
 }
