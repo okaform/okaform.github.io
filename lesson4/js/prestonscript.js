@@ -30,12 +30,10 @@ document.getElementById("currentDate").innerHTML = day + ", " + date2 + " " + mo
 
 function toggleMenu() {
     let y = document.getElementById("primaryNav").classList.toggle("hide");
-   /* let x = document.getElementById("changeSymbol").innerHTML;
-   
-    let x1 = document.querySelector("changeSymbol");
-    x1.addEventListener('click', ()=> {x = "&#935; Menu"}, false);
-   
-    // if (x = "&#935; Menu") {
-   //     document.getElementById("changeSymbol").innerHTML= "&#9776; Menu";
-   // }*/
+    let c = document.getElementById("changeSymbol").innerHTML = "&#935; Menu";
+
+    if (y == true) {
+     c = document.getElementById("changeSymbol").innerHTML = "&#9776; Menu";
+    }
+
 }
