@@ -1,15 +1,8 @@
 @media screen and (min-width: 32.5em) {
 
-    #content {
-        width: 80%;
-    }
-
-    header div {
-        width: 69%; 
-    }
-
-    header div p {
-        font-size: 1em;
+    /*header*/
+    .text-headings h1 {
+        font-size: 2em;;
     }
 
     /*main*/ 

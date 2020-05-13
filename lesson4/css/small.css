@@ -13,7 +13,6 @@ p, a {
     margin-bottom: 15px;
     font-family: 'Comic Neue', cursive;
     line-height: 1.5em;
-
 }
 
 li, button {
@@ -25,44 +24,40 @@ h1, h2, h3, h4 {
     font-family: 'Roboto Mono', monospace;
 }
 
-header div {
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 110px auto;
-    grid-template-rows: 1fr;
-}  
+
+/* hsakfjhd;klsja;dfj;sdfkj c;sjkdf*/
 
 header {
     background-color:#35502B;
-    grid-row: 1;
-}
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
 
-header div h1 {
-    grid-column: 2/3;
-    margin: 0;
-    grid-row: 1;
-    padding-top: 15px;
+
+.text-headings h1 {
     font-size: 1.5em;
+    margin-bottom: 0;;
 }
 
 
-header div p {
-    grid-column: 2/3;
-    grid-row: 1;
-    margin-top: 50px;
-    padding-top: 5px;
-    margin-bottom: 0;
-    font-size: 0.8em;
+.text-headings p {
     font-style: italic;
+    font-size: 0.8em;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10px;
 }
 
-header div img {
-    width: 100%;
-    
-    grid-row: 1;
-}
+
+
+/* hsakfjhd;klsja;dfj;sdfkj c;sjkdf*/
+
+
 
 nav {
     background-color: #E7C24F;
