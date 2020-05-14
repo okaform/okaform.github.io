@@ -10,7 +10,7 @@ let date2 = date.getDate();
 
 
     let day;
-    for (let i = 0; i < arrayOfday.length -1; i++) {
+    for (let i = 0; i < arrayOfday.length; i++) {
             if (i == date.getDay()) {
                 day = arrayOfday[i];
                 break;
