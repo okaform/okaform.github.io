@@ -13,15 +13,13 @@ let date2 = date.getDate();
     for (let i = 0; i < arrayOfday.length; i++) {
             if (i == date.getDay()) {
                 day = arrayOfday[i];
-                break;
             }
     }
 
     let month;
     for (let i = 0; i < arrayOfMonth.length; i++) {
-        if (date.getMonth() == i) {
+        if (i == date.getMonth()) {
             month = arrayOfMonth[i];
-            break;
         }
 }
 
