@@ -7,21 +7,9 @@ let arrayOfMonth = ["January","February","March", "April", "May", "June", "July"
 let date = new Date();
 let fullYear = date.getFullYear();
 let date2 = date.getDate();
+let day = arrayOfday[date.getDay()];
+let month = arrayOfMonth[date.getMonth()];
 
-
-    let day;
-    for (let i = 0; i < arrayOfday.length; i++) {
-            if (i == date.getDay()) {
-                day = arrayOfday[i];
-            }
-    }
-
-    let month;
-    for (let i = 0; i < arrayOfMonth.length; i++) {
-        if (i == date.getMonth()) {
-            month = arrayOfMonth[i];
-        }
-}
 
 document.getElementById("currentDate").innerHTML = day + ", " + date2 + " " + month + " " + fullYear + "."; 
 
