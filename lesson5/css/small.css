@@ -274,9 +274,7 @@ aside h4 {
 /*map frame and contact information*/
 
 .gmap {
-	margin: 10px 0 30px;
-	border: 1px solid #000;
-	box-shadow: 0 0 30px #555;
+    display: none;
 }
 
 .contact-information {
@@ -303,13 +301,28 @@ aside h4 {
 }
 
 .contact-address {
-    font-size: 1.2em;
     margin-bottom: 0;
 }
-
 
 .social-icons {
     margin-top: 0;
     display: flex;
     font-size: 2em;
+}
+
+/*colors for icons*/
+.fa-map-marker-alt, .fa-pinterest {
+    color: red;
+}
+
+.fa-twitter {
+    color: #00ACEE;
+}
+
+.fa-whatsapp {
+    color: #128c7e;
+}
+
+.fa-facebook {
+    color:#3b5998;
 }
