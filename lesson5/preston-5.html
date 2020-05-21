@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homepage for Preston weather site">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Best Weathersite</title>
+</head>
+<body>
+    <header>
+        <picture class="icon">
+        <img src="../lesson3/images/iconfinder_weather-07_1530387.png" alt="icon for best weather site" />
+        </picture>
+        <section class="text-headings">
+        <h1>Best Weathersite</h1>
+        <p>The best weather site around. Just see our name!</p>
+        </section>  
+        
+    </header>
+
+    <nav class="clearfix"> 
+        <button id ="changeSymbol" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-4.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+        <main>
+            <h2>Preston Idaho</h2>
+            <div class="contentbox">Hero w/ weather summary</div>
+            <div class="contentbox forecast">5 Day Forecast</div>
+            <div class="contentbox">Article</div>
+            <div class="contentbox">Contact Information</div>
+        </main>
+
+        <footer>
+            <p>&copy; Best Weathersite | Attributions | Marvellous Okafor</p>
+            <p><span id="currentDate"></span></p>
+
+        </footer>
+    <script src="js/prestonscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@media screen and (min-width: 32.5em) {
+
+    /*header*/
+    .text-headings h1 {
+        font-size: 2em;;
+    }
+
+    /*main*/ 
+    main {
+        width: 80%;
+    }
+    
+    .contentbox {
+        background-color: #acf;
+    }
+
+
+
+}
