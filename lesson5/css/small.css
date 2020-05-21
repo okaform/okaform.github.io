@@ -276,6 +276,15 @@ aside h4 {
     margin: .5em 0;
 }
 
-.continue {
+#continue {
     display: none;
+}
+
+
+/*map frame*/
+
+.gmap {
+	margin: 10px 0 30px;
+	border: 1px solid #000;
+	box-shadow: 0 0 30px #555;
 }

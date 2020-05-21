@@ -45,3 +45,5 @@ let day2 = document.getElementById("day2").innerHTML = arrayOfday[arrayOfDayEsti
 let day3 = document.getElementById("day3").innerHTML = arrayOfday[arrayOfDayEstimate[2]];
 let day4 = document.getElementById("day4").innerHTML = arrayOfday[arrayOfDayEstimate[3]];
 let day5 = document.getElementById("day5").innerHTML = arrayOfday[arrayOfDayEstimate[4]];
+
+
