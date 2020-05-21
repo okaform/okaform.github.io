@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #D9CAB3;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
@@ -191,6 +191,7 @@ aside h4 {
 
 .herodiv img {
     width: 100%;
+    margin-bottom: 3em;
 }
 
 .stats {
@@ -202,7 +203,6 @@ aside h4 {
     border: 1px solid #454955;
     box-shadow: 0 0 25px #000;
     opacity: .8;
-    
 }
 
 .stats h2, .stats p {
@@ -262,5 +262,20 @@ aside h4 {
 }
 
  .article img {
+     border-radius: 5px;
+     box-shadow: 0 0 10px #000;
      width: 100%;
+
  }
+
+ .article p {
+    padding: 0;
+}
+
+.article h3, .article p {
+    margin: .5em 0;
+}
+
+.continue {
+    display: none;
+}

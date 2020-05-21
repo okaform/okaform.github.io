@@ -17,6 +17,10 @@
 
     /*herodiv*/
 
+    .herodiv img {
+        margin-bottom: 0em;
+    }
+
     /*five-day-forecast*/
 
 .five-day-forecast {
@@ -30,8 +34,12 @@
 /*article*/
 
 .article img {
-    width: 50%;
+    width: initial;
+    margin-left: .8em;
     float: right;
 }
 
+.article h3 {
+    margin-top: 0;
+}
 }
