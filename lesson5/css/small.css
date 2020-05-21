@@ -180,8 +180,8 @@ footer a {
 
 .stats {
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 1em;
+    left: .8em;
     padding: 1rem;
     background: radial-gradient(#E7C24F, #D9CAB3);
     border: 1px solid #454955;
@@ -201,6 +201,22 @@ footer a {
     display: none;
 }
 
+.five-day-forecast img {
+    width: 50%;
+}
+
+.forecast-table {
+    width: 100%;
+    text-align: center;
+}
+
+.forecast-table tr {
+    padding: 15px;
+}
+
+.forecast-table th {
+    height: 3em;
+}
 /*aside*/
 
 aside {
