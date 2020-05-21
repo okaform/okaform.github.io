@@ -43,3 +43,10 @@
     margin-top: 0;
 }
 }
+
+/* contact information and map*/
+
+gmap {
+    width: 50%;
+    float: left;
+}
