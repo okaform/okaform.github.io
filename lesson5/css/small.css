@@ -102,6 +102,11 @@ nav ul li a:hover {
 
 }
 
+ .active {
+    text-decoration: underline;
+    background-color: #35502B;
+}
+
 nav ul.hide {
     display: none;
 }
@@ -154,3 +159,38 @@ footer a {
     display: table;
     clear: both;
   }
+
+
+  /*Hero Div*/
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+.herodiv img {
+    width: 100%;
+}
+
+.stats {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    padding: 1rem;
+    background: radial-gradient(#E7C24F, #D9CAB3);
+    border: 1px solid #454955;
+    box-shadow: 0 0 25px #000;
+    opacity: .8;
+    
+}
+
+.stats h2, .stats p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/*five-day-forecast*/
+
+.five-day-forecast {
+    display: none;
+}
