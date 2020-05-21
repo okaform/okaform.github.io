@@ -17,5 +17,17 @@
 
     /*herodiv*/
 
+    /*nav active*/
+
+    .active {
+        text-decoration: wavy;
+        background-color: #35502B;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .active:hover {
+        background-color: #454955;
+    }
 
 }

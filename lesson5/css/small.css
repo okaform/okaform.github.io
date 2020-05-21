@@ -102,10 +102,6 @@ nav ul li a:hover {
 
 }
 
- .active {
-    text-decoration: underline;
-    background-color: #35502B;
-}
 
 nav ul.hide {
     display: none;
