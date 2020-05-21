@@ -101,7 +101,17 @@ nav ul li a:hover {
     color: white;
 
 }
+.active {
+    text-decoration: wavy;
+    background-color: #454955;
+    color: white;
+    font-weight: bold;
+}
 
+.active:hover {
+    background-color: #35502B;
+}
+    
 
 nav ul.hide {
     display: none;
@@ -189,4 +199,19 @@ footer a {
 
 .five-day-forecast {
     display: none;
+}
+
+/*aside*/
+
+aside {
+    text-align: center;
+    background-color: #E7C24F;
+    padding: 1em;
+    color: white;
+    text-decoration: solid;
+    display: none;
+}
+
+aside h4 {
+    margin: 0;
 }
