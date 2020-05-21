@@ -27,4 +27,11 @@
     width: 80%;
 }
 
+/*article*/
+
+.article img {
+    width: 50%;
+    float: right;
+}
+
 }

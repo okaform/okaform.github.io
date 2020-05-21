@@ -167,6 +167,21 @@ footer a {
   }
 
 
+/*aside*/
+
+aside {
+    text-align: center;
+    background-color: #E7C24F;
+    padding: 1em;
+    color: white;
+    text-decoration: solid;
+    display: none;
+}
+
+aside h4 {
+    margin: 0;
+}
+
   /*Hero Div*/
 
 .herodiv {
@@ -233,17 +248,19 @@ footer a {
     border: 2px solid black;
     height: 2em;
 }
-/*aside*/
 
-aside {
-    text-align: center;
-    background-color: #E7C24F;
-    padding: 1em;
-    color: white;
-    text-decoration: solid;
-    display: none;
+
+ /*Article*/
+.article {
+        display: block;
+        margin: 10px auto;
+        border: 1px solid #000;
+        padding: 15px;
+        font-style: italic;
+        background-color: #ccc;
+        box-sizing: border-box;
 }
 
-aside h4 {
-    margin: 0;
-}
+ .article img {
+     width: 100%;
+ }
