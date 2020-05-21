@@ -23,5 +23,8 @@
     display: block;
 }
 
+.forecast-table {
+    width: 80%;
+}
 
 }

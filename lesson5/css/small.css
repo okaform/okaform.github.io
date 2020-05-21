@@ -199,23 +199,39 @@ footer a {
 
 .five-day-forecast {
     display: none;
-}
-
-.five-day-forecast img {
-    width: 50%;
-}
-
-.forecast-table {
-    width: 100%;
     text-align: center;
 }
 
+.five-day-forecast img {
+    width: 35px;
+}
+
+.forecast-table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .forecast-table tr {
-    padding: 15px;
+    padding: 1.5em;
+    
+}
+
+.forecast-table p {
+    margin-top: 0;
 }
 
 .forecast-table th {
-    height: 3em;
+    padding: .5em;
+    height: 2em;
+    background-color: #35502B;
+    color: white;
+    border: 2px solid black;
+}
+
+.forecast-table td {
+    border: 2px solid black;
+    height: 2em;
 }
 /*aside*/
 
