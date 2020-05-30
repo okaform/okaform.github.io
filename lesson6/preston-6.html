@@ -42,7 +42,11 @@
         <main>
             <h2>Preston Idaho</h2>
             <div class="herodiv">
-                <img src="images/aerial-view-architecture-autumn-cars-280221.jpg" alt="hero image" />
+                <picture>
+                    <source srcset="images/aerial-vieww768xh200.jpg" media="(min-width: 32.5em) and (max-width: 64.99em)">
+                    <source srcset="images/aerial-vieww1160xh300.jpg" media="(min-width: 65em)">
+                    <img src="images/aerial-vieww375xh120.jpg" alt="hero image" />
+                </picture>  
                 <section class="stats"> 
                     <p>Currently: </p> <span id="currently">Sunny</span>
                     <p>High: </p> <span id="high">76 &deg;F</span>
@@ -131,6 +135,6 @@
 
         </footer>
     <script src="js/prestonscript.js"></script>
-    <script src="js/preston5script.js"></script>
+    <script src="js/preston6script.js"></script>
 </body>
 </html>
