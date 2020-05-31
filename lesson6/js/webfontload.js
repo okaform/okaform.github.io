@@ -2,7 +2,7 @@
 WebFont.load ({
     google: {
         families: [
-            "Roboto Mono"
+            'Roboto Mono', 'Comic Neue'
         ]
     }
 });
