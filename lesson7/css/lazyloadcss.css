@@ -1,0 +1,12 @@
+
+.container {
+    display: flex;
+}
+
+
+.lazy1 {
+    width: 80%;
+}
+.lazy2 {
+    width: 100px;
+}
