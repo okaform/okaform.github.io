@@ -1,13 +1,18 @@
 
+
 .container {
-    display: flex;
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
 }
 
 
-.lazy1 {
-    
+.lazy img[data-src] {
+    filter: blur(0.2em);  
 }
 
-.lazy2 {
-    
+
+.lazy img {
+    filter: blur(0em);  
+    transition: filter 0.5s;
 }
