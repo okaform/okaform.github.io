@@ -131,6 +131,22 @@ main h2 {
     padding-bottom: 0;
 }
 
+/*picture images*/
+picture img {
+    width: 100%;
+}
+
+figure {
+    border-radius: 5px;
+    background-color: #35502B;
+}
+
+
+/*figcaption*/
+figcaption {
+    padding: 5px;
+}
+
 
 
 
@@ -175,7 +191,6 @@ aside h4 {
 }
 
  
-
 
 
 
