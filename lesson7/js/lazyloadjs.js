@@ -36,7 +36,7 @@ else {//load all images if not supported
 
 //testing 
 
-/*
+
 const imagesToLoad2 = document.querySelectorAll('img[data-srcset]');
 
 const loadImages2 = (image) => {
@@ -51,16 +51,16 @@ const imgOptions2 = {
 };
 
 if ('IntersectionObserver' in window) {
-    const imgObserver = new IntersectionObserver((items) => {
+    const imgObserver2 = new IntersectionObserver((items) => {
       items.forEach((item) => {
         if (item.isIntersecting) {
-          loadImages(item.target);
-          imgObserver.unobserve(item.target);
+          loadImages2(item.target);
+          imgObserver2.unobserve(item.target);
         }
       });
     }, imgOptions);
     imagesToLoad2.forEach((img) => {
-      imgObserver.observe(img);
+      imgObserver2.observe(img);
     });
 }
 
@@ -68,9 +68,9 @@ if ('IntersectionObserver' in window) {
 
 else {//load all images if not supported
   imagesToLoad2.forEach((img) => {
-    loadImages(img);
+    loadImages2(img);
   });
 }
 
 
-*/
+
