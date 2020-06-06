@@ -4,6 +4,7 @@
     display: grid;
     margin: 0 auto;
     width: 80%;
+    grid-template-columns: 1fr;
 }
 
 
