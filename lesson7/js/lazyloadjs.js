@@ -35,14 +35,14 @@ else {//load all images if not supported
 }
 
 //testing 
+/*
 
-
-const imagesToLoad2 = document.querySelectorAll('img[data-srcset]');
+const imagesToLoad2 = document.querySelectorAll('img[data-src]');
 
 const loadImages2 = (image) => {
-  image.setAttribute('srcset', image.getAttribute('data-srcset'));
+  image.setAttribute('srcset', image.getAttribute('data-src'));
   image.onload = () => {
-    image.removeAttribute('data-srcset');
+    image.removeAttribute('data-src');
   };
 };
 
@@ -73,4 +73,4 @@ else {//load all images if not supported
 }
 
 
-
+*/
