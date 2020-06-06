@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Homepage for Preston weather site">
+    <meta name="description" content="Gallery Page for Preston weather site">
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -46,7 +45,7 @@
                     <picture>
                         <source srcset="images/winterone300x300.jpg" media="(min-width: 32.5em) and (max-width: 64.99em)">
                         <source srcset="images/winterone400x300.jpg" media="(min-width: 65em)">
-                        <img src="images/winterone300x300.jpg" alt="winter1" />
+                        <img src="images/placeholder.png" data-src="images/winterone300x300.jpg" alt="winter1" />
                     </picture>
                     <figcaption>Trees in the Winter</figcaption>
                 </figure>
@@ -55,7 +54,7 @@
                     <picture>
                         <source srcset="images/wintertwo300x300.jpg" media="(min-width: 32.5em) and (max-width: 64.99em)">
                         <source srcset="images/wintertwo400x300.jpg" media="(min-width: 65em)">
-                        <img src="images/wintertwo300x300.jpg" alt="winter2" />
+                        <img src="images/placeholder.png" data-src="images/wintertwo300x300.jpg" alt="winter2" />
                     </picture>
                     <figcaption>Beautiful Wolf in the Mountains</figcaption>
                 </figure>
@@ -64,7 +63,7 @@
                     <picture>
                         <source srcset="images/winterthree300x300.jpg" media="(min-width: 32.5em) and (max-width: 64.99em)">
                         <source srcset="images/winterthree400x300.jpg" media="(min-width: 65em)">
-                        <img src="images/winterthree300x300.jpg" alt="winter3" />
+                        <img src="images/placeholder.png" data-src="images/winterthree300x300.jpg" alt="winter3" />
                     </picture>
                     <figcaption>Warm cabin in the cold</figcaption>
                 </figure>
@@ -73,7 +72,7 @@
                     <picture>
                         <source srcset="images/springone300x300.jpg" media="(min-width: 32.5em) and (max-width: 64.99em)">
                         <source srcset="images/springone400x300.jpg" media="(min-width: 65em)">
-                        <img src="images/springone300x300.jpg" alt="spring1" />
+                        <img src="images/placeholder.png" data-src="images/springone300x300.jpg" alt="spring1" />
                     </picture>
                     <figcaption>Bloosoming flowers</figcaption>
                 </figure>
@@ -161,5 +160,6 @@
     <script src="../lesson6/js/prestonscript.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="../lesson6/js/webfontload.js"></script>
+    <script src="js/lazyloadjs.js"></script>
 </body>
 </html>
