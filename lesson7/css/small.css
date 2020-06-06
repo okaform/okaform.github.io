@@ -138,6 +138,7 @@ picture img {
 
 figure {
     border-radius: 5px;
+    color: white;
     background-color: #35502B;
 }
 
