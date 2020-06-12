@@ -1,6 +1,66 @@
 
-
-table tr {
-    font-family: 'Ubuntu', sans-serif;
-    color: green;
+/* This will make the body of the page centered */
+body {
+    margin: 0 auto;
+    width: 50%;
 }
+
+/* Make the table span across 90% of the body, collapse the border and give it a box shadow */
+table {
+    width: 90%;
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse: collapse;
+    box-shadow: 15px 15px 15px rgba(132, 136, 120, 0.623);
+}
+
+/* Give padding and border to the header of the table */
+thead th {
+    border: 1px solid rgba(132, 136, 120, 0.623);
+    padding: 0.5em 1em;
+}
+
+/* Give the background color and color to the rows of the header */
+thead tr {
+    background-color: #7fb9c2;
+    color: black;
+}
+
+/* This affects only the second row of the header */
+thead tr.special-color {
+    color: #e7f0ed;
+    background-color: #628ca6;
+}
+
+/* Go to the 4th row of tbody, then 3rd column. */
+tbody :nth-child(4) :nth-child(3) {
+    color: white;
+    background-color: #628ca6;
+}
+
+/* This goes to the 5th row and first column of tbody */
+tbody :nth-child(5) :first-child {
+    font-style: italic;
+}
+
+/* This goes to the 5th row and second column of tbody */
+tbody :nth-child(5) :nth-child(2) {
+    text-align: center;
+}
+
+/* general styling for all table data */
+td {
+    border: 1px solid rgba(132, 136, 120, 0.623);
+    padding: 0.5em 1em;
+}
+
+/* general color for all table rows */
+tr {
+    background-color: #e7f0ed;
+}
+
+/* this styles the tfoot of the table */
+tfoot td {
+    background-color: #7fb9c2;
+    text-align: center;
+}
+
