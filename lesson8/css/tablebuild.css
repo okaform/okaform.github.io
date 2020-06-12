@@ -1,13 +1,13 @@
 
 /* This will make the body of the page centered */
 body {
-    margin: 0 auto;
+    margin: 10px auto;
     width: 50%;
 }
 
 /* Make the table span across 90% of the body, collapse the border and give it a box shadow */
 table {
-    width: 90%;
+    width: 85%;
     font-family: 'Ubuntu', sans-serif;
     border-collapse: collapse;
     box-shadow: 15px 15px 15px #628ca6;
@@ -16,17 +16,19 @@ table {
 /* Give padding and border to the header of the table */
 thead th {
     border: 2px solid rgba(132, 136, 120, 0.623);
-    padding: 0.5em 1em;
+    padding: 0.2em 1em;
 }
 
 /* Give the background color and color to the rows of the header */
 thead tr {
+    font-size: 2em;
     background-color: #7fb9c2;
     color: black;
 }
 
 /* This affects only the second row of the header */
 thead tr.special-color {
+    font-size: 1.2em;
     color: #e7f0ed;
     background-color: #628ca6;
 }
