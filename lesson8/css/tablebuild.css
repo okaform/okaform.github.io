@@ -10,12 +10,12 @@ table {
     width: 90%;
     font-family: 'Ubuntu', sans-serif;
     border-collapse: collapse;
-    box-shadow: 15px 15px 15px rgba(132, 136, 120, 0.623);
+    box-shadow: 15px 15px 15px #628ca6;
 }
 
 /* Give padding and border to the header of the table */
 thead th {
-    border: 1px solid rgba(132, 136, 120, 0.623);
+    border: 2px solid rgba(132, 136, 120, 0.623);
     padding: 0.5em 1em;
 }
 
@@ -47,15 +47,15 @@ tbody :nth-child(5) :nth-child(2) {
     text-align: center;
 }
 
-/* general styling for all table data */
-td {
-    border: 1px solid rgba(132, 136, 120, 0.623);
-    padding: 0.5em 1em;
+tbody tr:nth-child(odd) {
+    background-color: #e7ffed;
 }
 
-/* general color for all table rows */
-tr {
-    background-color: #e7f0ed;
+
+/* general styling for all table data */
+td {
+    border: 2px solid rgba(132, 136, 120, 0.623);
+    padding: 0.5em 1em;
 }
 
 /* this styles the tfoot of the table */
