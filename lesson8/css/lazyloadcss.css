@@ -1,0 +1,19 @@
+
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
+    grid-template-columns: 1fr;
+}
+
+
+picture img[data-src] {
+    filter: blur(0.2em);  
+}
+
+
+picture img {
+    filter: blur(0em);  
+    transition: filter 1s;
+}

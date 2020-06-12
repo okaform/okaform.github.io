@@ -1,0 +1,49 @@
+@media screen and (min-width: 65em) {
+    nav ul {
+        display: flex; 
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    
+    nav ul li a {
+        border-top: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    header div h1 {
+        font-size: 2em;
+    }
+
+    
+    button {
+        display: none; 
+    }
+ 
+
+    /*main*/ 
+  main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main h2 {
+      grid-column: 1 / 4;
+  }
+
+/*figure*/
+  figure:hover {
+    box-shadow: 0 0px 30px #E7C24F;
+  }
+
+  /*footer*/
+  footer {
+    width: 90%;
+}
+}
