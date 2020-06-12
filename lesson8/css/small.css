@@ -15,7 +15,7 @@ p, a {
     line-height: 1.5em;
 }
 
-li, button, span {
+li, button, span, form {
     font-family: 'Comic Neue', cursive;
 }
 
@@ -129,32 +129,6 @@ main h2 {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 0;
-}
-
-/*picture images*/
-picture img {
-    width: 100%;
-}
-
-figure {
-    border-radius: 5px;
-    color: white;
-    background-color: #35502B;
-}
-
-picture img[data-src] {
-    filter: blur(0.2em);  
-}
-
-picture img {
-    filter: blur(0em);  
-    transition: filter 1s;
-}
-
-
-/*figcaption*/
-figcaption {
-    padding: 5px;
 }
 
 
