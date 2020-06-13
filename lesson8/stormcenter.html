@@ -46,19 +46,19 @@
                 <fieldset>
                     <legend>Reporter's Information</legend>
                 
-                <label class="top">Full Name*: <input type="text" name="fullname" required pattern="[A-Za-z ]+" minlength="5" 
+                <label class="top">Full Name*: <input id="fullname" type="text" name="fullname" required pattern="[A-Za-z ]+" minlength="5" 
                     title="You must have your first and last name seperated by a space. for example: James Franko" ></label>
     
  
                 
                 <label class="top">Email: 
-                    <input type="email" name="email" placeholder="example@gmail.com" >
+                    <input id="email" type="email" name="email" placeholder="example@gmail.com" >
                 </label>
                 
 
                 
                 <label class="top">Phone Number: 
-                    <input type="tel" name="phone" required placeholder="5458971234">
+                    <input id="tel" type="tel" name="phone" required placeholder="5458971234">
                 </label>
      
                 
@@ -141,7 +141,7 @@
                 <label class="top">Additional Information or Comments: <textarea rows="10" cols="39" name="comments"></textarea></label>
                 </fieldset>
                 
-                    <input class="submitBtn" type="submit" value="Report Storm">
+                    <input onclick="getInfo()" class="submitBtn" type="submit" value="Report Storm">
     
             </form>
 
