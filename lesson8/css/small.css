@@ -206,6 +206,11 @@ form label.top input:required:valid {
     border-left: #35502B solid 6px;
 }
 
+/*Thank you page*/
+
+p .thanks-back {
+    padding: 0;
+}
 /*footer*/
 
 footer {
