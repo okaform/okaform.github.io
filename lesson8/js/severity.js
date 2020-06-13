@@ -7,26 +7,26 @@ function adjustRating(rating) {
 
 
 function getInfo() {
-    let fullname = document.getElementById("fullnames").value;
+    localStorage.fullname = document.getElementById("fullnames").value;
 
-    let email = document.getElementById("emails").value;
+    localStorage.email = document.getElementById("emails").value;
 
-    let tel = document.getElementById("tels").value;
+    localStorage.tel = document.getElementById("tels").value;
 
-    let caseNumber = Math.floor(Math.random() * 999999);
+    localStorage.caseNumber = Math.floor(Math.random() * 999999);
 
 }
 
 
-function useInfo(fullname, email, tel, caseNumber) {
+function useInfo() {
     
-    document.getElementById("getName").innerText = fullname;
+    document.getElementById("getName").innerText = localStorage.fullname;
 
-    document.getElementById("getEmail").innerText = email;
+    document.getElementById("getEmail").innerText = localStorage.email;
 
-    document.getElementById("getTel").innerText = tel;
+    document.getElementById("getTel").innerText = localStorage.tel;
 
-    document.getElementById("getCaseNumber").innerText = caseNumber;
+    document.getElementById("getCaseNumber").innerText = localStorage.caseNumber;
 }
 
 
