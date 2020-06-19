@@ -8,6 +8,8 @@ header h1 {
     text-align: center;
     margin: 0;
     padding: 0.3em 0;
+    font-family: 'Comic Neue', cursive;
+    
 }
 
 .cards {
@@ -28,11 +30,13 @@ header h1 {
 .cards section h2 {
     margin: 0;
     padding: 0.7em 0 0.4em;
+    font-family: 'Comic Neue', cursive;
 }
 
 .cards section p {
     margin: 0;
     padding: 0.2em 0;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .cards section img {
@@ -43,6 +47,13 @@ header h1 {
 
 }
 
+footer {
+    text-align: center;
+    padding: 0.5em;
+    color: #454955;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+}
 
 
 @media screen and (min-width: 32.5em) {
