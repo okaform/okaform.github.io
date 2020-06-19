@@ -4,25 +4,23 @@ body {
 }
 
 header h1 {
-    background-color: #35502B;
-    color: white;
+    color: #454955;
     text-align: center;
     margin: 0;
     padding: 0.3em 0;
 }
 
-main {
+.cards {
     display: block;
     padding: 1em;
     text-align: center;
     background-color: #D9CAB3;
-    margin-top: 0.5em;
-    box-shadow: 15px 15px 15px #454955;
+    box-shadow: 0 -3px 15px #454955;
 }
 
 .cards section {
-    background-color: #35502B;
     color: white;
+    background-color: #35502B;
     margin-bottom: 0.3em;
     border-radius: 5px;
 }
@@ -39,20 +37,28 @@ main {
 
 .cards section img {
     width: 50%;
-    padding: 0.6em 0;
+    margin: 0.6em 0;
     border-radius: 5px;
-    /* box-shadow: 15px 15px 15px #454955; */
+    box-shadow: 5px -3px 15px black; 
 
 }
 
 
 
 @media screen and (min-width: 32.5em) {
-
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0.3em;
+    }
 
 }
 
 
 @media screen and (min-width: 65em) {
-  
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 0.3em;
+    }
 }
