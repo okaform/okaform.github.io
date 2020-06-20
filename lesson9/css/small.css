@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #D9CAB3;
     font-size: 18px;
 }
 
@@ -23,8 +22,6 @@ li, button, span, form {
 h1, h2, h3, h4 {
     font-family: 'Roboto Mono', monospace;
 }
-
-
 
 
 header {
@@ -130,86 +127,63 @@ main h2 {
     padding-bottom: 0;
 }
 
-/*Form*/
+/* JSON Data and cards */
 
-form {
-    width: 100%;
+.headSection h1 {
+    color: #454955;
+    text-align: center;
+    margin: 0;
+    padding: 0.3em 0;
+    font-family: 'Comic Neue', cursive;   
 }
 
-form fieldset {
-    margin: 1.8em 0;
-    border: 2px solid #454955;
-    border-radius: 10px;
-    background-color: #E7C24F;
-    padding: .5rem 2%;
-}
-
-form legend {
-    font-size: 1.3em;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-}
-
-form label.top, form div {
+.cards {
     display: block;
-    padding-top: 1em;
-    font-size: .8em;
+    padding: 1em;
+    text-align: center;
+    background-color: #D9CAB3;
+    box-shadow: 0 -3px 15px #454955;
 }
 
-form label.own {
-    display: block;
-    padding-top: 1em;
-}
-
-
-
-form label.top input, form label.top select {
-    -webkit-appearance: none;
-    display: block;
-    font-size: 1em;
-    border-radius: 4px;
-    padding: .75rem;
-    width: 100%;
-    max-width: 20em;
-    
-}
-
-form label.top textarea {
-    display: block;
-}
-
-/* for side by side input */
-form label.sbs {
-    display: block;
-    padding: .75rem 0;
-}
-
-/* for the submit button */
-form input.submitBtn {
-    border: none;
-    background-color: #454955;
+.cards section {
     color: white;
-    border-radius: 1rem;
-    padding: .5rem 1rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 18em;
+    background-color: #35502B;
+    margin-bottom: 0.3em;
+    border-radius: 5px;
 }
 
-/* higlight the required inputs */
-form label.top input:required {
-    border-left: red solid 6px;
+.cards section h2 {
+    margin: 0;
+    padding: 0.7em 0 0;
+    font-family: 'Comic Neue', cursive;
 }
 
-/* CHange the color when it passes the test */
-form label.top input:required:valid {
-    border-left: #35502B solid 6px;
+.cards section p {
+    margin: 0;
+    padding: 0.2em 0;
+    font-family: 'Roboto Mono', monospace;
 }
 
-/*Thank you page*/
+.cards section :nth-child(2) {
+    font-style: italic;
+    font-size: 0.7em;
+    padding-top: 0;
+}
 
-p .thanks-back {
-    padding: 0;
+.cards section img {
+    width: 50%;
+    margin: 0.6em 0;
+    border-radius: 5px;
+    box-shadow: 5px -3px 15px black; 
+
+}
+
+footer {
+    text-align: center;
+    padding: 0.5em;
+    color: #454955;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
 }
 /*footer*/
 
