@@ -148,8 +148,8 @@ main h2 {
 .cards section {
     color: white;
     background-color: #35502B;
-    margin-bottom: 0.3em;
     border-radius: 5px;
+    margin-bottom: 1em;
 }
 
 .cards section h2 {
@@ -166,25 +166,60 @@ main h2 {
 
 .cards section :nth-child(2) {
     font-style: italic;
-    font-size: 0.7em;
-    padding-top: 0;
+    font-size: 0.6em;
 }
 
 .cards section img {
-    width: 50%;
-    margin: 0.6em 0;
-    border-radius: 5px;
-    box-shadow: 5px -3px 15px black; 
-
+    width: 100%;
+    margin: 0.6em 0 0;
 }
 
-footer {
+/* wireframe link at the footer */
+a.wireframe {
+    padding: 0;
+    text-decoration: none;
+    color: #E7C24F;
+}
+
+/* For wire frame.html */
+#wireframe {
     text-align: center;
-    padding: 0.5em;
-    color: #454955;
-    font-size: 1.5em;
-    font-family: 'Roboto Mono', monospace;
 }
+
+#wireframe img {
+    width: 100%;
+}
+
+/* picture */ 
+picture img {
+    width: 100%;
+}
+
+/* Article */
+.article {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #000;
+    padding: 15px;
+    background-color: #E7C24F;
+    box-sizing: border-box;
+}
+
+.article img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    width: 100%;
+
+}
+
+.article p {
+    padding: 0;
+}
+
+.article h3, .article p {
+    margin: .5em 0;
+}
+
 /*footer*/
 
 footer {
