@@ -65,5 +65,15 @@
   /*footer*/
   footer {
     width: 90%;
-}
+
+  }
+
+      /* Article */ 
+      .article img {
+        width: 30%;
+        float: right;
+        margin-left: .8em;
+        margin-right: 0;
+    }
+
 }

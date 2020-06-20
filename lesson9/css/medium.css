@@ -89,8 +89,8 @@
 
 .article img {
     width: initial;
-    margin-left: .8em;
-    float: right;
+    margin-right: .8em;
+    float: left;
 }
 
 .article h3 {
