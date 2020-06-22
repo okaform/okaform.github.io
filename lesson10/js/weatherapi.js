@@ -7,7 +7,7 @@ fetch(weatherURL)
         document.getElementById("currently").textContent = jsObject.weather[0].description;
         let highTemp = document.getElementById("high").innerHTML = ((jsObject.main.temp_max - 273.15) * (9 / 5) + 32).toFixed(1) + " &deg;F";
         document.getElementById("humidity").textContent = jsObject.main.humidity + "%";
-        let windSpeed = document.getElementById("windSpeed").textContent = jsObject.wind.speed;
+        let windSpeed = document.getElementById("windSpeed").textContent = jsObject.wind.speed + "mph";
 
         //perform an if statement to make sure the high temperature  is greater than or equal to 50 F
         //and the windspeed is above 5mph
