@@ -19,14 +19,9 @@ fetch(weatherURL)
         else {
             document.getElementById("windChill").innerHTML = "N/A";
         }
-        
-        // const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-        // const desc = jsObject.weather[0].description;  // note how we reference the weather array
-        // document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-        // document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-        // document.getElementById('icon').setAttribute('alt', desc);
 
     });
+
 
     const forecastURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=418c04c2294318c72bd18980b93964a7';
 
@@ -37,18 +32,16 @@ fetch(weatherURL)
 
             const forecast = jsObject['list'];
 
-            console.table(forecast);
+           // console.table(forecast);
 
             for(let i = 5; i < forecast.length; i+=8) {
                 const imagesrc = 'https://openweathermap.org/img/w/' + forecast[i].weather[0].icon + '.png';
                 const desc = forecast[i].weather[0].description;
                 const temp = (forecast[i].main.temp - 273.15) * (9 / 5) + 32;
 
-                document.getElementById(`forecast${i}`).innerHTML = temp.toFixed(2) + " &deg;F";
+                document.getElementById(`forecast${i}`).innerHTML = temp.toFixed(1) + " &deg;F";
                 document.getElementById(`imgforecast${i}`).setAttribute('src', imagesrc);
                 document.getElementById(`imgforecast${i}`).setAttribute('alt', desc);
-
-                console.log(desc);
             }
 
         });

@@ -10,10 +10,10 @@ if (getFriday == 5) {
 //Five Day Forecast
 
 //create an array to store the days and future days
-let arrayOfDayEstimate = [date.getDay(), date.getDay() + 1, date.getDay() + 2, date.getDay() + 3, date.getDay() + 4];
+let arrayOfDayEstimate = [date.getDay() + 1, date.getDay() + 2, date.getDay() + 3, date.getDay() + 4, date.getDay() + 5];
     
 let remainder;
-//create a loop with an if statement that gets the current day and 4 days in advance.
+//create a loop with an if statement that gets 5 days in advance.
 for (let i = 0; i < arrayOfDayEstimate.length; i++) {
     remainder = arrayOfDayEstimate[i] % 7;
         if (remainder == 0) {
