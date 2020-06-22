@@ -27,9 +27,18 @@
     display: block;
 }
 
+/* forecast table */
 .forecast-table {
     width: 80%;
 }
+
+/* weather data source text */
+    .weather-source {
+        text-align: center;
+        font-style: italic;
+        font-size: 0.8em;
+        margin: 0.1em auto;
+    }
 
 /*article*/
 
