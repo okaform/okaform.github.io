@@ -1,4 +1,4 @@
-const weatherURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=418c04c2294318c72bd18980b93964a7';
+const weatherURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=418c04c2294318c72bd18980b93964a7';
 
 fetch(weatherURL) 
     .then((response) => response.json())
@@ -23,7 +23,7 @@ fetch(weatherURL)
     });
 
 
-    const forecastURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=418c04c2294318c72bd18980b93964a7';
+    const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=418c04c2294318c72bd18980b93964a7';
 
     fetch(forecastURL)
         .then((response) => response.json())
