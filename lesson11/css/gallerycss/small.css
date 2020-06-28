@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D9CAB3;
+    font-size: 18px;
+}
+
+
+
+p, a {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    font-family: 'Comic Neue', cursive;
+    line-height: 1.5em;
+}
+
+li, button, span {
+    font-family: 'Comic Neue', cursive;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+header {
+    background-color:#35502B;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+
+.text-headings h1 {
+    font-size: 1.5em;
+    margin-bottom: 0;;
+}
+
+
+.text-headings p {
+    font-style: italic;
+    font-size: 0.8em;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10px;
+}
+
+
+/*navigation*/
+
+nav {
+    background-color: #E7C24F;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+}
+
+
+nav button {
+    border: none; 
+    font-size: 1.2rem;
+    background-color: #E7C24F;
+    padding: 0.8rem;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+
+nav button:hover {
+    background-color: #35502B;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    padding: 0.8rem;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 1.2rem;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li a:hover {
+    background-color: #35502B;
+    color: white;
+
+}
+.active {
+    text-decoration: wavy;
+    background-color: #454955;
+    color: white;
+    font-weight: bold;
+}
+
+.active:hover {
+    background-color: #35502B;
+}
+    
+
+nav ul.hide {
+    display: none;
+}
+
+
+/*main*/
+main {
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+main h2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+/*picture images*/
+picture img {
+    width: 100%;
+}
+
+figure {
+    border-radius: 5px;
+    color: white;
+    background-color: #35502B;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);  
+}
+
+picture img {
+    filter: blur(0em);  
+    transition: filter 1s;
+}
+
+
+/*figcaption*/
+figcaption {
+    padding: 5px;
+}
+
+
+
+
+/*footer*/
+
+footer {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #35502B;
+    padding: 5px;
+    text-align: center;
+    color: white;
+
+}
+footer a {
+    color: white;
+}
+
+
+/*clearfix*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+/*aside*/
+
+aside {
+    text-align: center;
+    background-color: #E7C24F;
+    padding: 1em;
+    color: white;
+    text-decoration: solid;
+    display: none;
+}
+
+aside h4 {
+    margin: 0;
+}
+
+ 
+
+
+
+
+

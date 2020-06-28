@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+
+
+p, a {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    font-family: 'Comic Neue', cursive;
+    line-height: 1.5em;
+}
+
+li, button, span, form {
+    font-family: 'Comic Neue', cursive;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+header {
+    background-color:#35502B;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+
+.text-headings h1 {
+    font-size: 1.5em;
+    margin-bottom: 0;;
+}
+
+
+.text-headings p {
+    font-style: italic;
+    font-size: 0.8em;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10px;
+}
+
+
+/*navigation*/
+
+nav {
+    background-color: #E7C24F;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+}
+
+
+nav button {
+    border: none; 
+    font-size: 1.2rem;
+    background-color: #E7C24F;
+    padding: 0.8rem;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+
+nav button:hover {
+    background-color: #35502B;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    padding: 0.8rem;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 1.2rem;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li a:hover {
+    background-color: #35502B;
+    color: white;
+
+}
+.active {
+    text-decoration: wavy;
+    background-color: #454955;
+    color: white;
+    font-weight: bold;
+}
+
+.active:hover {
+    background-color: #35502B;
+}
+    
+
+nav ul.hide {
+    display: none;
+}
+
+
+/*main*/
+main {
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+main h2 {
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+/* JSON Data and cards */
+
+.headSection h1 {
+    color: #454955;
+    text-align: center;
+    margin: 0;
+    padding: 0.3em 0;
+    font-family: 'Comic Neue', cursive;   
+}
+
+.cards {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    background-color: #D9CAB3;
+    box-shadow: 0 -3px 15px #454955;
+}
+
+.cards section {
+    color: white;
+    background-color: #35502B;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.cards section h2 {
+    margin: 0;
+    padding: 0.7em 0 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+.cards section p {
+    margin: 0;
+    padding: 0.2em 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cards section :nth-child(2) {
+    font-style: italic;
+    font-size: 0.6em;
+}
+
+.cards section img {
+    width: 100%;
+    margin: 0.6em 0 0;
+}
+
+/* wireframe link at the footer */
+a.wireframe {
+    padding: 0;
+    text-decoration: none;
+    color: #E7C24F;
+}
+
+/* For wire frame.html */
+#wireframe {
+    text-align: center;
+}
+
+#wireframe img {
+    width: 100%;
+}
+
+/* picture */ 
+picture img {
+    width: 100%;
+}
+
+/* Article */
+.article {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #000;
+    padding: 15px;
+    background-color: #E7C24F;
+    box-sizing: border-box;
+}
+
+.article img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    width: 100%;
+
+}
+
+.article p {
+    padding: 0;
+}
+
+.article h3, .article p {
+    margin: .5em 0;
+}
+
+/*footer*/
+
+footer {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #35502B;
+    padding: 5px;
+    text-align: center;
+    color: white;
+
+}
+footer a {
+    color: white;
+}
+
+
+/*clearfix*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+/*aside*/
+
+aside {
+    text-align: center;
+    background-color: #E7C24F;
+    padding: 1em;
+    color: white;
+    text-decoration: solid;
+    display: none;
+}
+
+aside h4 {
+    margin: 0;
+}
+
+ 
+
+
+
+
+

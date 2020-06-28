@@ -1,0 +1,76 @@
+@media screen and (min-width: 32.5em) {
+
+    /*header*/
+    .text-headings h1 {
+        font-size: 2em;;
+    }
+
+    /*main*/ 
+    main {
+        width: 80%;
+    }
+    
+    .contentbox {
+        background-color: #acf;
+    }
+
+
+    /*herodiv*/
+
+    .herodiv img {
+        margin-bottom: 0em;
+    }
+
+    /*five-day-forecast*/
+
+.five-day-forecast {
+    display: block;
+}
+
+/* forecast table */
+.forecast-table {
+    width: 80%;
+}
+
+/* weather data source text */
+    .weather-source {
+        text-align: center;
+        font-style: italic;
+        font-size: 0.8em;
+        margin: 0.1em auto;
+    }
+
+/*article*/
+
+.article img {
+    width: initial;
+    margin-left: .8em;
+    float: right;
+}
+
+.article h3 {
+    margin-top: 0;
+
+}
+
+/* contact information and map*/
+.contact-information {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.gmap {
+    width: 70%;
+    height: 80%;
+	border: 1px solid #000;
+    box-shadow: 0 0 30px #555;
+    display: initial;
+}
+
+/*
+width="70%" height="80%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+*/
+
+}
+

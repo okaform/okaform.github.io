@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery Page for Preston weather site">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/gallerycss/small.css">
+    <link rel="stylesheet" href="../css/gallerycss/medium.css">
+    <link rel="stylesheet" href="../css/gallerycss/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Best Weathersite</title>
+</head>
+<body>
+    <aside id="top-popup">
+        <h4>Saturday = Preston Pancakes in the Park!</h4>
+        <h4>9:00 a.m Saturday at the city park pavillion.</h4>
+    </aside>
+    <header>
+        <picture class="icon">
+        <img src="../images/icons/iconfinder_weather.png" alt="icon for best weather site" />
+        </picture>
+        <section class="text-headings">
+        <h1>Best Weathersite</h1>
+        <p>The best weather site around. Just see our name!</p>
+        </section>  
+        
+    </header>
+
+    <nav class="clearfix"> 
+        <button id ="changeSymbol" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../html/preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../html/stormcenter.html">Storm Center</a></li>
+            <li><a class="active" href="gallery.html">&#171;Gallery&#187;</a></li>
+        </ul>
+    </nav>
+        <main>
+            <h2>Weather Gallery</h2>
+
+                <figure>
+                    <picture>
+                        <img src="../images/galleryimages/placeholder.png" data-src="../images/galleryimages/winterone.jpg" alt="winter1" />
+                    </picture>
+                    <figcaption>Trees in the Winter</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img src="../images/galleryimages/placeholder.png" data-src="../images/galleryimages/wintertwo.jpg" alt="winter2" />
+                    </picture>
+                    <figcaption>Beautiful Wolf in the Mountains</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img src="../images/galleryimages/placeholder.png" data-src="../images/galleryimages/winterthree.jpg" alt="winter3" />
+                    </picture>
+                    <figcaption>Warm cabin in the cold</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img src="../images/galleryimages/placeholder.png" data-src="../images/galleryimages/springone.jpg" alt="spring1" />
+                    </picture>
+                    <figcaption>Bloosoming flowers</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img src="../images/galleryimages/placeholder.png" data-src="../images/galleryimages/springtwo.jpg" alt="spring2" />
+                    </picture>
+                    <figcaption>Beautiful Landscape</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img src="../images/galleryimages/placeholder.png" data-src="../images/galleryimages/springthree.jpg" alt="spring3" />
+                    </picture>
+                    <figcaption>Clouds Darkening</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img src="../images/galleryimages/placeholder.png" data-src="../images/galleryimages/fallone.jpg" alt="fall1" />
+                    </picture>
+                    <figcaption>Rainy Day</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img src="../images/galleryimages/placeholder.png" data-src="../images/galleryimages/falltwo.jpg" alt="fall2" />
+                    </picture>
+                    <figcaption>Trees, clouds, and sunset</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img src="../images/galleryimages/placeholder.png" data-src="../images/galleryimages/fallthree.jpg" alt="fall3" />
+                    </picture>
+                    <figcaption>Time to snow</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img src="../images/galleryimages/placeholder.png" data-src="../images/galleryimages/clouds.jpg" alt="clouds" />
+                    </picture>
+                    <figcaption>Clouds breaking</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img src="../images/galleryimages/placeholder.png" data-src="../images/galleryimages/tornado.jpg" alt="tornado" />
+                    </picture>
+                    <figcaption>Tornado</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img src="../images/galleryimages/placeholder.png" data-src="../images/galleryimages/rain.jpg" alt="rain" />
+                    </picture>
+                    <figcaption>Rain</figcaption>
+                </figure>
+            
+            
+        </main>
+
+        <footer>
+            <p>&copy; Best Weathersite | Attributions | Marvellous Okafor</p>
+            <p><span id="currentDate"></span></p>
+
+        </footer>
+    <script src="../js/prestonjs.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="..js/webfontload.js"></script>
+    <script src="../js/lazyloadjs.js"></script>
+</body>
+</html>

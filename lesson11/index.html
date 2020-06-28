@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page for Best weather site">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/indexcss/small.css">
+    <link rel="stylesheet" href="css/indexcss/medium.css">
+    <link rel="stylesheet" href="css/indexcss/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Best Weathersite</title>
+</head>
+<body>
+    <aside id="top-popup">
+        <h4>Saturday = Preston Pancakes in the Park!</h4>
+        <h4>9:00 a.m Saturday at the city park pavillion.</h4>
+    </aside>
+    <header>
+        <picture class="icon">
+        <img src="images/icons/iconfinder_weather.png" alt="icon for best weather site" />
+        </picture>
+        <section class="text-headings">
+        <h1>Best Weathersite</h1>
+        <p>The best weather site around. Just see our name!</p>
+        </section>  
+        
+    </header>
+
+    <nav class="clearfix"> 
+        <button id ="changeSymbol" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a class="active" href="index.html">&#171;Home&#187;</a></li>
+            <li><a href="html/preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="html/stormcenter.html">Storm Center</a></li>
+            <li><a href="html/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+        <div class="headSection">
+            <h1>Home Page</h1>
+        </div>
+        <main>
+            <picture>
+                <source srcset="images/indeximages/banner-medium.jpg" media="(min-width: 32.5em) and (max-width: 64.99em)">
+                <source srcset="images/indeximages/banner-large.jpg" media="(min-width: 65em)">
+                <img src="images/indeximages/banner-small.jpg" alt="banner image" />
+            </picture>  
+                <div class="article">
+                    <img src="images/indeximages/storyimage.jpg" alt="image of couple">
+                    <h3>Weather Story</h3>
+                    <p>Welcome to the Best Weathersite you'll ever visit. While we are just using this to keep you entertained, let 
+                        us go through some of our webpages with you and what they have to offer. Over in Preston, we have such a beautiful weather location there
+                        with sun in the summer, snow in the winter and snow in the fall. It is quite a site to see. Over at Soda Springs, well, the name says it all. Head on 
+                        over there if you need a free soda while you take a hot bath. This is not even close to being done, over at Fish Haven, well, if you like to Fish
+                        boy do we have a treat for you. You will get the most exotic and sweetest fish ever. Fish haven is really a fish haven! Now if you are not 
+                        satisfied with what you see(that never happens) then you can go over to our gallery page and see the most beautiful exotic weathers taken by the best photographers
+                        money can buy. Finally, if you have something interesting to report or might be in danger, head on over to our storm center page and report your case.
+                        We will take care of you!</p>
+
+
+                </div>
+                <div class="cards"></div>
+        </main>
+
+        <footer>
+            <p>&copy; Best Weathersite | Attributions | Marvellous Okafor | <a class="wireframe" href="html/wireframe.html" target="_blank">Wireframe</a></p>
+            <p><span id="currentDate"></span></p>
+
+        </footer>
+   
+    <script src="js/indexjs.js"></script>
+    <script src="js/prestonjs.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+</html>

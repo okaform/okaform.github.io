@@ -1,0 +1,49 @@
+@media screen and (min-width: 65em) {
+    nav ul {
+        display: flex; 
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    
+    nav ul li a {
+        border-top: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    header div h1 {
+        font-size: 2em;
+    }
+
+    
+    button {
+        display: none; 
+    }
+ 
+
+    /*main*/ 
+        .contentbox {
+            background-color: #aa2;
+        }
+
+
+     /*footer*/
+        footer {
+            width: 90%;
+        }
+
+  /*herodiv*/
+
+
+      /*nav active*/
+
+/*contact information and map*/
+
+
+}

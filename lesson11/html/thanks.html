@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery Page for Preston weather site">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/stormcentercss/small.css">
+    <link rel="stylesheet" href="../css/stormcentercss/medium.css">
+    <link rel="stylesheet" href="../css/stormcentercss/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Best Weathersite</title>
+</head>
+<body onload="useInfo()">
+    <aside id="top-popup">
+        <h4>Saturday = Preston Pancakes in the Park!</h4>
+        <h4>9:00 a.m Saturday at the city park pavillion.</h4>
+    </aside>
+    <header>
+        <picture class="icon">
+        <img src="../images/icons/iconfinder_weather.png" alt="icon for best weather site" />
+        </picture>
+        <section class="text-headings">
+        <h1>Best Weathersite</h1>
+        <p>The best weather site around. Just see our name!</p>
+        </section>  
+        
+    </header>
+
+    <nav class="clearfix"> 
+        <button id ="changeSymbol" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a class="active" href="stormcenter.html">&#171;Storm Center&#187;</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+        <main>
+            <h2>Thanks for filling out the form!</h2>
+            <p>Your information has been sent.</p>
+            <p>Summary of web form submission</p>
+
+            <p>Your Name: <span id="getName"></span></p>
+            <p>Email Address: <span id="getEmail"></span></p>
+            <p>Case Number: <span id="getCaseNumber"></span></p>
+            <p>Phone Number: <span id="getTel"></span></p>
+            <p>Click <a class="thanks-back" href="stormcenter.html">Here</a> to go back.</p>
+     
+            
+            
+        </main>
+
+        <footer>
+            <p>&copy; Best Weathersite | Attributions | Marvellous Okafor</p>
+            <p><span id="currentDate"></span></p>
+
+        </footer>
+    <script src="../js/stormcenterjs.js"></script>
+    <script src="../js/prestonjs.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="../lesson6/js/webfontload.js"></script>
+</body>
+</html>
