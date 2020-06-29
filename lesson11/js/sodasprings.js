@@ -1,4 +1,6 @@
-const weatherURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=418c04c2294318c72bd18980b93964a7';
+
+// This is for the weather summary
+const weatherURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&APPID=418c04c2294318c72bd18980b93964a7';
 
 fetch(weatherURL) 
     .then((response) => response.json())
@@ -22,8 +24,8 @@ fetch(weatherURL)
 
     });
 
-
-    const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=418c04c2294318c72bd18980b93964a7';
+    // This is for the 5 day forcast
+    const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&APPID=418c04c2294318c72bd18980b93964a7';
 
     fetch(forecastURL)
         .then((response) => response.json())
@@ -45,6 +47,27 @@ fetch(weatherURL)
             }
 
         });
+
+
+        // This is for the upcoming events
+
+        const eventsURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+        fetch(eventsURL)
+            .then((response) => response.json())
+            .then((jsObject) => {
+
+                for (let i = 0; i < jsObject.towns[5].events.length; i++) {
+                    
+                    let events = document.createElement('p');
+                    events.textContent = jsObject.towns[5].events[i];
+
+                    document.querySelector('div.upcoming').appendChild(events)
+                }
+
+
+
+            })
 
 
     

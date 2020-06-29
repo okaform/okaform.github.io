@@ -186,7 +186,7 @@ aside h4 {
 
 .herodiv img {
     width: 100%;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 .stats {
@@ -204,7 +204,7 @@ aside h4 {
 
 .stats h2, .stats p, .stats span {
     margin: 0;
-    font-size: 1em;
+    font-size: .8em;
 }
 
 .stats p {

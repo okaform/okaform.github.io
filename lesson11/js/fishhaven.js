@@ -54,9 +54,6 @@ fetch(weatherURL)
         fetch(eventsURL)
             .then((response) => response.json())
             .then((jsObject) => {
-                const fish = jsObject.towns[1].events;
-                console.log(jsObject);
-                console.table(fish);
 
                 for (let i = 0; i < jsObject.towns[1].events.length; i++) {
                     
