@@ -252,6 +252,14 @@ aside h4 {
     border: 2px solid black;
 }
 
+.sodasprings th {
+    background-color: #662D05;
+}
+
+.preston th {
+    background-color: #B38151;
+}
+
 .forecast-table td {
     border: 2px solid black;
     height: 2em;

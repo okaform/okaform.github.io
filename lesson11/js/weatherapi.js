@@ -47,4 +47,22 @@ fetch(weatherURL)
         });
 
 
+        // This is for the upcoming events
+
+        const eventsURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+        fetch(eventsURL)
+            .then((response) => response.json())
+            .then((jsObject) => {
+
+                for (let i = 0; i < jsObject.towns[4].events.length; i++) {
+                    
+                    let events = document.createElement('p');
+                    events.textContent = jsObject.towns[4].events[i];
+
+                    document.querySelector('div.upcoming').appendChild(events)
+                }
+
+            })
+
     

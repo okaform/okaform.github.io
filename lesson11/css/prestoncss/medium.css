@@ -21,6 +21,12 @@
         margin-bottom: 0em;
     }
 
+    /* weather summary page */
+
+    .stats h2, .stats p, .stats span {
+        font-size: 1em;
+    }
+
     /*five-day-forecast*/
 
 .five-day-forecast {
