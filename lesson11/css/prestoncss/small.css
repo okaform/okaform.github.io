@@ -292,6 +292,23 @@ aside h4 {
 }
 
 
+/* upcomoing events */
+
+.upcoming {
+    padding: 15px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background-color: #E7C24F;
+    
+}
+
+.upcoming h3 {
+    margin: 0;
+    padding: .8em 0 .8em;
+    border-bottom: 2px solid #b96341;
+}
+
 /*map frame and contact information*/
 
 .gmap {
