@@ -314,6 +314,11 @@ aside h4 {
 .upcoming h3 {
     margin: 0;
     padding: .8em 0 .8em;
+}
+
+.upcoming h4 {
+    margin: 0;
+    padding: .8em 0 .8em;
     border-bottom: 2px solid #b96341;
 }
 

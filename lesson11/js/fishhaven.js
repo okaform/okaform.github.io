@@ -60,11 +60,15 @@ fetch(weatherURL)
             .then((jsObject) => {
 
                 for (let i = 0; i < jsObject.towns[1].events.length; i++) {
-                    
-                    let events = document.createElement('p');
-                    events.textContent = jsObject.towns[1].events[i];
 
-                    document.querySelector('div.upcoming').appendChild(events)
+                    let eventsHeader = document.createElement('h4');
+                    let eventsParagraph = document.createElement('p');
+                    eventsHeader.textContent = jsObject.towns[1].events[i].split(":", 2)[0];
+                    eventsParagraph.textContent = jsObject.towns[1].events[i].split(":", 2)[1];
+
+
+                    document.querySelector('div.upcoming').appendChild(eventsHeader);
+                    document.querySelector('div.upcoming').appendChild(eventsParagraph);
                 }
 
 
