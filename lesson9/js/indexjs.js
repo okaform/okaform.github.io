@@ -11,6 +11,7 @@ fetch(requestURL)
 
     const towns = jsonObject['towns'];
     console.table(towns);
+    
     for (let i = 0; i < towns.length; i++ ) {
         let card = document.createElement('section');
         let article = document.createElement('article');
@@ -21,8 +22,9 @@ fetch(requestURL)
         let motto = document.createElement('p');
         let photo = document.createElement('img');
 
-        let count = 0;
-                 if ((i == 1) || (i == 4) || (i == 5)) {
+        const nameCheck = towns[i].name;
+        
+                 if ((nameCheck === "Preston") || (nameCheck === "Soda Springs") || (nameCheck === "Fish Haven")) {
  
                         h2.textContent = towns[i].name;
                         motto.textContent = towns[i].motto; 
