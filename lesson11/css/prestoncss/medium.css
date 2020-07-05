@@ -23,8 +23,12 @@
 
     /* weather summary page */
 
-    .stats h2, .stats p, .stats span {
+    .stats p, .stats span {
         font-size: 1em;
+    }
+
+    .stats h2 {
+        font-size: 1.3em;
     }
 
     /*five-day-forecast*/
