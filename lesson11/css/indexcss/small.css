@@ -235,6 +235,14 @@ footer a {
     color: white;
 }
 
+/* For terms of use link */
+
+a.owm {
+    padding: 0;
+    text-decoration: none;
+    color: #E7C24F;
+}
+
 
 /*clearfix*/
 
