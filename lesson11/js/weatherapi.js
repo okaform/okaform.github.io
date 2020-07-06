@@ -28,11 +28,8 @@ fetch(weatherURL)
     fetch(forecastURL)
         .then((response) => response.json())
         .then((jsObject) => {
-            console.log(jsObject);
 
             const forecast = jsObject['list'];
-
-           // console.table(forecast);
 
             for(let i = 5; i < forecast.length; i+=8) {
                 const imagesrc = 'https://openweathermap.org/img/w/' + forecast[i].weather[0].icon + '.png';
