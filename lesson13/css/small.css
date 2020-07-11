@@ -2,6 +2,12 @@
 General styles for all pages
 
 */
+
+body {
+    font-size: 18px;
+
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Ubuntu', sans-serif;   
 }
@@ -17,6 +23,55 @@ p, li, figcaption,span {
 
 */
 
+/* for the header and navigation */
+.headNavContainer {
+    padding: .5em 2% 0;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-template-rows: 70px;
+}
+
+/* for the scooter icon */
+.header .icon {
+    margin-top: 1em;
+}
+
+.header .icon img {
+    width: 12%;
+    position: relative;
+    top: .3em;
+}
+.header h1 {
+    display: inline;
+    margin: 0 0 10px;
+    font-size: 2em;
+}
+
+.header p {
+    font-size: .8em;
+    font-style: italic;
+    margin: 0;
+    
+}
+/* For the button */
+p#changeSymbol {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    border: none;
+    /* position: relative;
+    top: .1em; */
+}
+
+
+
+.hide {
+    display: none;
+}
+
+
+
+/* for the forcast table */
 .five-forecast-table {
     display: none;
 }
