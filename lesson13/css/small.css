@@ -139,6 +139,7 @@ p#changeSymbol {
 
 .picContainer img {
     width: 100%;
+    
 }
 
 /* This is for the image slider button */
@@ -159,6 +160,33 @@ p#changeSymbol {
     position: relative;
     top: 150px;
     left: 270px;
+}
+
+/* for the text on the image */
+
+h3.best {
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 90px;
+    margin: 0;
+    background-color: rgba(128, 128, 128, .5);
+}
+
+ .rely {
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 200px;
+    left: 80px;
+    font-size: 2em;   
+    background-color: rgba(128, 128, 128, .5);
+    width: 200px;
+} 
+
+.cozumel {
+    padding: .5em;
+    font-size: 1.5em;
 }
 
 /* for the forcast table */
