@@ -116,16 +116,16 @@ p#changeSymbol {
     
 }
 
-.index h2 {
+main.index h2 {
     text-align: center;
     margin: 1em 0 0;
 }
 
-.index hr {
+main.index hr {
     margin: 0 2%;
 }
 
-.index p {
+main.index p {
     margin: .5em 4%;
     text-align: center;
     padding: 0 4%;
