@@ -11,11 +11,95 @@
             ],
             "Walk-in": [
                 {
+                    "Half Day (3hrs)": "$25",
+                    "Full Day ": "$35"
+                }
+            ]
+        },
+
+        {
+            "name": "Honda Metro Scooter",
+            "Max. Persons": "1",
+            "Reservation": [
+                {
                     "Half Day (3hrs)": "$20",
                     "Full Day ": "$30"
                 }
+            ],
+            "Walk-in": [
+                {
+                    "Half Day (3hrs)": "$25",
+                    "Full Day ": "$35"
+                }
+            ]
+        },
+
+        {
+            "name": "Honda Metro Scooter",
+            "Max. Persons": "1",
+            "Reservation": [
+                {
+                    "Half Day (3hrs)": "$20",
+                    "Full Day ": "$30"
+                }
+            ],
+            "Walk-in": [
+                {
+                    "Half Day (3hrs)": "$25",
+                    "Full Day ": "$35"
+                }
+            ]
+        },
+
+        {
+            "name": "Honda Metro Scooter",
+            "Max. Persons": "1",
+            "Reservation": [
+                {
+                    "Half Day (3hrs)": "$20",
+                    "Full Day ": "$30"
+                }
+            ],
+            "Walk-in": [
+                {
+                    "Half Day (3hrs)": "$25",
+                    "Full Day ": "$35"
+                }
+            ]
+        },
+
+        {
+            "name": "Honda Metro Scooter",
+            "Max. Persons": "1",
+            "Reservation": [
+                {
+                    "Half Day (3hrs)": "$20",
+                    "Full Day ": "$30"
+                }
+            ],
+            "Walk-in": [
+                {
+                    "Half Day (3hrs)": "$25",
+                    "Full Day ": "$35"
+                }
+            ]
+        },
+
+        {
+            "name": "Honda Metro Scooter",
+            "Max. Persons": "1",
+            "Reservation": [
+                {
+                    "Half Day (3hrs)": "$20",
+                    "Full Day ": "$30"
+                }
+            ],
+            "Walk-in": [
+                {
+                    "Half Day (3hrs)": "$25",
+                    "Full Day ": "$35"
+                }
             ]
         }
-
     ]
 }
