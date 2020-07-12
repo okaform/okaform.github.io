@@ -182,6 +182,7 @@ h3.best {
     font-size: 2em;   
     background-color: rgba(128, 128, 128, .5);
     width: 200px;
+    margin: 0;
 } 
 
 .cozumel {
