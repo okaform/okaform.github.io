@@ -125,7 +125,7 @@ main.index hr {
     margin: 0 2%;
 }
 
-main.index p {
+main.index p.weAreCozumel {
     margin: .5em 4%;
     text-align: center;
     padding: 0 4%;
@@ -133,13 +133,17 @@ main.index p {
 
 /* This is for the image slider */
 .picContainer {
-    margin: 0 4%;
+    margin: 0 auto;
     width: 90%;
+    height: 270px;
 }
 
 .picContainer img {
     width: 100%;
-    
+}
+
+div.slider {
+    height: 270px;
 }
 
 /* This is for the image slider button */
@@ -149,15 +153,16 @@ main.index p {
     cursor: pointer;
     background-color: transparent;
     color: white;
+    position: relative;
 }
 
 .picContainer .display-left {
-    position: relative;
+    
     top: 150px;
 }
 
 .picContainer .display-right {
-    position: relative;
+   
     top: 150px;
     left: 270px;
 }
@@ -185,10 +190,56 @@ h3.best {
     margin: 0;
 } 
 
+/* for the we are cozumel scoots text */
 .cozumel {
     padding: .5em;
     font-size: 1.5em;
 }
+
+/* For the make your reservation now button  */
+
+main.index h2 a {
+    text-decoration: none;
+    border: 2px solid #1D3557;
+    padding: .3em;
+    font-size: .9em;
+    background-color: grey;
+    color: white;
+}
+
+main.index h2 a:hover {
+    color: grey;
+    background-color: white;
+}
+
+/* FOr the weather summary */
+.wstats {
+    margin: 0 10%;
+    padding: .5em 0;
+    background: radial-gradient(#E7C24F, #D9CAB3);
+    border: 1px solid #454955;
+    box-shadow: 0 0 25px #000;
+    opacity: .8;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+}
+
+.wstats h4, .wstats p, .wstats span {
+    margin: 0;
+    padding: .3em .3em .3em .1em;
+    font-size: .8em;
+}
+
+.wstats h4, .wstats p {
+    text-align: right;
+}
+
+
+.wstats span {
+    text-align: left;
+}
+
+
 
 /* for the forcast table */
 .five-forecast-table {

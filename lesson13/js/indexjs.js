@@ -41,7 +41,25 @@ function showDivs(n) {
 }
 
 //This makes it automatic
-//  window.addEventListener("load", function() {
-//      showDivs(slideIndex);
-//      setInterval(function() {plusDivs(1)}, 4000);
-//  });
+  window.addEventListener("load", function() {
+      showDivs(slideIndex);
+      setInterval(function() {plusDivs(1)}, 4000);
+  });
+
+
+
+//   This is for getting the weather information through api
+
+const weatherURL = 'https://api.openweathermap.org/data/2.5/weather?id=3530103&APPID=418c04c2294318c72bd18980b93964a7';
+
+fetch(weatherURL)
+.then((response) => response.json())
+.then((jsObject) => {
+
+    console.log(jsObject);
+    console.table(jsObject);
+
+    document.getElementById("cTemp").innerHTML = ((jsObject.main.temp - 273.15) * (9 / 5) + 32).toFixed(1) + " &deg;F";
+    document.getElementById("cDescrip").textContent = jsObject.weather[0].description;
+    document.getElementById("humidity").textContent = jsObject.main.humidity + "%";
+});
