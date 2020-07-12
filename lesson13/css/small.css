@@ -17,12 +17,6 @@ p, li, figcaption,span {
     font-family: 'Inconsolata', monospace;
 }
 
-
-/* For the index page
-
-
-*/
-
 /* for the header and navigation */
 .headNavContainer {
     padding: .5em 2% 0;
@@ -59,19 +53,116 @@ p#changeSymbol {
     padding: 0;
     font-size: 3em;
     border: none;
+    text-align: right;
     /* position: relative;
     top: .1em; */
 }
 
 
-
+/* this controls the navigation display */
 .hide {
     display: none;
 }
 
+/* This is for the side bar */
+#primaryNav {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    color: white;
+    list-style: none;
+    width: 200px;
+    top: 80px;
+    right: 0;
+    background-color: grey;
+    transition: 1s;
+}
 
+
+#primaryNav li a {
+    color: white;
+    text-decoration: none;
+    padding: .7em .4em;
+    display: block;
+    font-size: 1.2em;
+    border-bottom: 3px solid red;
+}
+
+#primaryNav li a:hover {
+    background-color: aqua;
+    
+}
+
+/* For the main */
+
+/* .main {
+   padding: 0 2%; 
+   
+} */
+
+/* FOR THE INDEX PAGE
+
+
+*/
+/* for the banner */
+.index picture img {
+    width: 100%;
+}
+
+/* wayfinder */
+#primaryNav li a.active {
+    color: #1D3557;
+    border-left: 2px solid #F1FAEE;
+    
+}
+
+.index h2 {
+    text-align: center;
+    margin: 1em 0 0;
+}
+
+.index hr {
+    margin: 0 2%;
+}
+
+.index p {
+    margin: .5em 4%;
+    text-align: center;
+    padding: 0 4%;
+}
+
+/* This is for the image slider */
+.picContainer {
+    margin: 0 4%;
+    width: 90%;
+}
+
+.picContainer img {
+    width: 100%;
+}
+
+/* This is for the image slider button */
+.picContainer button {
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+.picContainer .display-left {
+    position: relative;
+    top: 150px;
+}
+
+.picContainer .display-right {
+    position: relative;
+    top: 150px;
+    left: 270px;
+}
 
 /* for the forcast table */
 .five-forecast-table {
     display: none;
+    transition: 1s
 }
