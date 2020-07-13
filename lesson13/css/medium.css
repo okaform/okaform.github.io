@@ -40,8 +40,9 @@ display: none;
 }
 
 nav {
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
+   
 }
 
 #primaryNav li {
@@ -51,7 +52,7 @@ nav {
     color: black;
     border-bottom: none;
     padding: .6em .8em;
-    margin-top: .5em;
+    margin-top: .9em;
     font-size: 1em;
 }
 
