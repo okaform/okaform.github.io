@@ -1,7 +1,7 @@
-/* 
-General styles for all pages
-
-*/
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/               General styles for all pages                    /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
 body {
     font-size: 18px;
@@ -100,10 +100,44 @@ p#changeSymbol {
    
 } */
 
-/* FOR THE INDEX PAGE
+footer {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #35502B;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+footer div p {
+    margin: 0;
+    padding-top: .5em;
+}
+
+footer div p a {
+    color: #E7C24F;
+    text-decoration: none;
+}
+
+footer div.social-icons {
+    padding-top: .7em;
+}
+
+footer div.social-icons img {
+    opacity: 0.5;
+}
+
+footer div.social-icons img:hover {
+    opacity: 1;
+}
 
 
-*/
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/                       FOR THE INDEX PAGE                      /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+
 /* for the banner */
 .index picture img {
     width: 100%;
@@ -213,6 +247,33 @@ main.index h2 a:hover {
     background-color: white;
 }
 
+
+/* For the rental summary cards */
+.cards {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    background-color: #D9CAB3;
+    box-shadow: 0 -3px 15px #454955;
+}
+
+.cards section {
+    color: white;
+    background-color: #35502B;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.cards section img {
+    width: 100%;
+}
+
+.cards section h3, .cards section p {
+    margin: 0;
+    padding: .5em 0;
+}
+
+
 /* FOr the weather summary */
 .wstats {
     margin: 0 10%;
@@ -240,7 +301,37 @@ main.index h2 a:hover {
     text-align: left;
 }
 
+/* contact information */
+img.gmap {
+    display: none;
+}
 
+.contact-info {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 1em;
+    background-color: #E7C24F;
+    box-sizing: border-box;
+}
+
+.contact-info h3 {
+    margin: 0;
+}
+
+.contact-info .right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info .right ul li {
+    padding: .3em;
+}
+
+/* For the second list */
+.contact-info .right ul li:nth-child(2) {
+    padding-left: 1.8em;
+}
 
 /* for the forcast table */
 .five-forecast-table {

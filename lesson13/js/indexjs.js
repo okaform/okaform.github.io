@@ -72,7 +72,7 @@ const rentalOptions = 'https://okaform.github.io/lesson13/data/rentaloptions.jso
 fetch(rentalOptions)
 .then((response) => response.json())
 .then((jsObject2) => {
-    console.log(jsObject2);
+    // console.log(jsObject2);
 
     const rentalType = jsObject2['rental-type'];
 
@@ -89,8 +89,21 @@ fetch(rentalOptions)
         img.setAttribute('src', "images/" + rentalType[i].photo);
         img.setAttribute('alt', rentalType[i].name + "image");
         maxPersons.textContent = "Max. Persons: " + rentalType[i].maxPersons;
-        walkInPrice.textContent = "From: " + rentalType[i].walkIn[0].halfDay;
-        reservePrice.textContent = "From: " +rentalType[i].Reservation[0].halfDay;
+        walkInPrice.textContent = "Walk-in Price From: " + rentalType[i].walkIn[0].halfDay;
+        reservePrice.textContent = "Reservation price From: " +rentalType[i].Reservation[0].halfDay;
+
+        card.appendChild(h3);
+        card.appendChild(img);
+        card.appendChild(maxPersons);
+        card.appendChild(walkInPrice);
+        card.appendChild(reservePrice);
+
+        document.querySelector('div.cards').appendChild(card);
+
 
     }
 });
+
+
+// This is for the last updated document
+document.getElementById("lastUpdated").innerHTML = document.lastModified;
