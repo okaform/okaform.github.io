@@ -169,7 +169,7 @@ main.index p.weAreCozumel {
 .picContainer {
     margin: 0 auto;
     width: 90%;
-    height: 270px;
+    height: auto;
 }
 
 .picContainer img {
@@ -177,7 +177,7 @@ main.index p.weAreCozumel {
 }
 
 div.slider {
-    height: 270px;
+    height: 15em;
 }
 
 /* This is for the image slider button */
@@ -187,12 +187,11 @@ div.slider {
     cursor: pointer;
     background-color: transparent;
     color: white;
-    position: relative;
+    position: absolute;
 }
 
 .picContainer .display-left {
     
-    top: 150px;
 }
 
 .picContainer .display-right {

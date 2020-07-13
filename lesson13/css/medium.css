@@ -59,12 +59,16 @@ nav #primaryNav {
 /                                                                /
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
-.cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+/* This is for the text before the image slider */
+main.index h2 {
+    font-size: 2.5em;
 }
 
+main.index p.weAreCozumel {
+    font-size: 1.5em;
+}
+
+/* This is for the image slider */
 .picContainer {
     height: auto;
 }
@@ -72,7 +76,40 @@ nav #primaryNav {
 
 div.slider {
     height: auto;
+} 
+
+
+/* This is for the image slider button */
+.picContainer .display-left {
+    
 }
+
+.picContainer .display-right {
+   
+    top: 150px;
+    left: 270px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+
 
 
 
