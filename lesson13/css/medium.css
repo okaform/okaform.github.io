@@ -7,11 +7,10 @@
 
 /* for the header and navigation */
 .headNavContainer {
-    padding: .5em 2% 0;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
-    
 }
+
 
 .header .icon img {
     width: 10%; 
@@ -27,11 +26,12 @@ display: none;
 }
 
 /* this controls the navigation display */
-.hide {
+/* .hide {
     display: flex;
-}
+}  */
 
-#primaryNav {
+nav #primaryNav {
+    width: 95%;
     position: initial;
     color: black;
     list-style: none;
@@ -39,20 +39,17 @@ display: none;
     background-color: initial;
 }
 
-nav {
-    /* margin-right: auto;
-    margin-left: auto; */
-    /* display: flex;
-    fle */
-}
+
 
 #primaryNav li {
     flex: 1 1 100%;
 }
+
 #primaryNav li a {
+    text-align: center;
     color: black;
     border-bottom: none;
-    padding: .6em .8em;
+    padding: .6em .6em;
     margin-top: .9em;
     font-size: 1em;
 }
@@ -67,6 +64,18 @@ nav {
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
 }
+
+.picContainer {
+    height: auto;
+}
+
+
+div.slider {
+    height: auto;
+}
+
+
+
 
 
 

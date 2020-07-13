@@ -19,10 +19,12 @@ p, li, figcaption, span, a {
 
 /* for the header and navigation */
 .headNavContainer {
-    padding: .5em 2% 0;
     display: grid;
     grid-template-columns: 7fr 1fr;
     grid-template-rows: 70px;
+    overflow: hidden;
+    width: 100%;
+    margin: .5em 2% 0;
 }
 
 /* for the scooter icon */
