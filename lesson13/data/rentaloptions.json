@@ -5,14 +5,14 @@
             "maxPersons": "1",
             "Reservation": [
                 {
-                    "Half Day (3hrs)": "$20",
-                    "Full Day": "$30"
+                    "halfDay": "$20",
+                    "fullDay": "$30"
                 }
             ],
-            "Walk-in": [
+            "walkIn": [
                 {
-                    "Half Day (3hrs)": "$25",
-                    "Full Day ": "$35"
+                    "halfDay": "$25",
+                    "fullDay ": "$35"
                 }
             ],
             "photo": "honda-metro-scooter.jpg"
@@ -23,14 +23,14 @@
             "maxPersons": "2",
             "Reservation": [
                 {
-                    "Half Day (3hrs)": "$30",
-                    "Full Day ": "$40"
+                    "halfDay": "$30",
+                    "fullDay ": "$40"
                 }
             ],
-            "Walk-in": [
+            "walkIn": [
                 {
-                    "Half Day (3hrs)": "$35",
-                    "Full Day ": "$45"
+                    "halfDay": "$35",
+                    "fullDay ": "$45"
                 }
             ],
             "photo": "honda-dio-scooter.jpg" 
@@ -41,14 +41,14 @@
             "maxPersons": "2",
             "Reservation": [
                 {
-                    "Half Day (3hrs)": "$40",
-                    "Full Day ": "$50"
+                    "halfDay": "$40",
+                    "fullDay ": "$50"
                 }
             ],
-            "Walk-in": [
+            "walkIn": [
                 {
-                    "Half Day (3hrs)": "$45",
-                    "Full Day ": "$55"
+                    "halfDay": "$45",
+                    "fullDay ": "$55"
                 }
             ],
             "photo": "hone-pcx-scooter.jpg"
@@ -59,14 +59,14 @@
             "maxPersons": "4",
             "Reservation": [
                 {
-                    "Half Day (3hrs)": "$50",
-                    "Full Day ": "$70"
+                    "halfDay": "$50",
+                    "fullDay ": "$70"
                 }
             ],
-            "Walk-in": [
+            "walkIn": [
                 {
-                    "Half Day (3hrs)": "$60",
-                    "Full Day ": "$80"
+                    "halfDay": "$60",
+                    "fullDay ": "$80"
                 }
             ],
             "photo": "honda-pioneer-atv.jpg"
@@ -77,14 +77,14 @@
             "maxPersons": "5",
             "Reservation": [
                 {
-                    "Half Day (3hrs)": "$70",
-                    "Full Day ": "$100"
+                    "halfDay": "$70",
+                    "fullDay ": "$100"
                 }
             ],
-            "Walk-in": [
+            "walkIn": [
                 {
-                    "Half Day (3hrs)": "$85",
-                    "Full Day ": "$125"
+                    "halfDay": "$85",
+                    "fullDay ": "$125"
                 }
             ],
             "photo": "jeep-wrangler-four-door.jpg"
@@ -95,14 +95,14 @@
             "maxPersons": "4",
             "Reservation": [
                 {
-                    "Half Day (3hrs)": "$60",
-                    "Full Day ": "$85"
+                    "halfDay": "$60",
+                    "fullDay ": "$85"
                 }
             ],
-            "Walk-in": [
+            "walkIn": [
                 {
-                    "Half Day (3hrs)": "$70",
-                    "Full Day ": "$90"
+                    "halfDay": "$70",
+                    "fullDay ": "$90"
                 }
             ],
             "photo": "jeep-wrangler-two-door.jpg"

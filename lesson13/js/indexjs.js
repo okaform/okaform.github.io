@@ -88,7 +88,8 @@ fetch(rentalOptions)
         h3.textContent = rentalType[i].name;
         img.setAttribute('src', "images/" + rentalType[i].photo);
         img.setAttribute('alt', rentalType[i].name);
-        maxPersons.textContent = "Max. Persons" + rentalType[i].maxPersons;
+        maxPersons.textContent = "Max. Persons: " + rentalType[i].maxPersons;
+        walkInPrice.textContent = "From: " + rentalType[i].walkIn[0].halfDay;
 
     }
 });
