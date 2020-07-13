@@ -199,6 +199,7 @@ h3.best {
 /* For the make your reservation now button  */
 
 main.index h2 a {
+    margin-top: 10px;
     text-decoration: none;
     border: 2px solid #1D3557;
     padding: .3em;
