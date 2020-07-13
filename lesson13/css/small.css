@@ -31,7 +31,7 @@ p, li, figcaption, span, a {
 }
 
 .header .icon img {
-    width: 12%;
+    width: 12%; 
     position: relative;
     top: .3em;
 }
@@ -54,8 +54,6 @@ p#changeSymbol {
     font-size: 3em;
     border: none;
     text-align: right;
-    /* position: relative;
-    top: .1em; */
 }
 
 
@@ -75,7 +73,6 @@ p#changeSymbol {
     top: 80px;
     right: 0;
     background-color: grey;
-    transition: 1s;
 }
 
 

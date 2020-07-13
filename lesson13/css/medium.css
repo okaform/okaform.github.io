@@ -1,3 +1,65 @@
 @media screen and (min-width: 32.5em) {
+    /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/               General styles for all pages                    /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+
+/* for the header and navigation */
+.headNavContainer {
+    padding: .5em 2% 0;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.header .icon img {
+    width: 10%; 
+}
+
+.header h1 {
+    font-size: 2em;
+}
+
+/* For the button */
+p#changeSymbol {
+display: none;
+}
+
+/* this controls the navigation display */
+.hide {
+    display: flex;
+}
+
+#primaryNav {
+    position: initial;
+    color: black;
+    list-style: none;
+    display: flex;
+    background-color: initial;
+}
+
+nav {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#primaryNav li {
+    flex: 1 1 100%;
+}
+#primaryNav li a {
+    color: black;
+    border-bottom: none;
+    padding: .6em .8em;
+    margin-top: .5em;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
 
 }
