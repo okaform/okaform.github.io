@@ -14,7 +14,8 @@
                     "Half Day (3hrs)": "$25",
                     "Full Day ": "$35"
                 }
-            ]
+            ],
+            "photo": "honda-metro-scooter.jpg"
         },
 
         {
@@ -31,7 +32,8 @@
                     "Half Day (3hrs)": "$35",
                     "Full Day ": "$45"
                 }
-            ]
+            ],
+            "photo": "honda-dio-scooter.jpg" 
         },
 
         {
@@ -48,7 +50,8 @@
                     "Half Day (3hrs)": "$45",
                     "Full Day ": "$55"
                 }
-            ]
+            ],
+            "photo": "hone-pcx-scooter.jpg"
         },
 
         {
@@ -65,7 +68,8 @@
                     "Half Day (3hrs)": "$60",
                     "Full Day ": "$80"
                 }
-            ]
+            ],
+            "photo": "honda-pioneer-atv.jpg"
         },
 
         {
@@ -82,7 +86,8 @@
                     "Half Day (3hrs)": "$85",
                     "Full Day ": "$125"
                 }
-            ]
+            ],
+            "photo": "jeep-wrangler-four-door.jpg"
         },
 
         {
@@ -99,7 +104,8 @@
                     "Half Day (3hrs)": "$70",
                     "Full Day ": "$90"
                 }
-            ]
+            ],
+            "photo": "jeep-wrangler-two-door.jpg"
         }
     ]
 }
