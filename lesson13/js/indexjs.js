@@ -59,6 +59,7 @@ fetch(weatherURL)
     console.log(jsObject);
     console.table(jsObject);
 
+    //document.getElementById("Location").textContent = jsObject.name;
     document.getElementById("cTemp").innerHTML = ((jsObject.main.temp - 273.15) * (9 / 5) + 32).toFixed(1) + " &deg;F";
     document.getElementById("cDescrip").textContent = jsObject.weather[0].description;
     document.getElementById("humidity").textContent = jsObject.main.humidity + "%";
