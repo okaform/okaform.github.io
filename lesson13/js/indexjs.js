@@ -56,11 +56,39 @@ fetch(weatherURL)
 .then((response) => response.json())
 .then((jsObject) => {
 
-    console.log(jsObject);
-    console.table(jsObject);
+    // console.log(jsObject);
+    // console.table(jsObject);
 
     //document.getElementById("Location").textContent = jsObject.name;
     document.getElementById("cTemp").innerHTML = ((jsObject.main.temp - 273.15) * (9 / 5) + 32).toFixed(1) + " &deg;F";
     document.getElementById("cDescrip").textContent = jsObject.weather[0].description;
     document.getElementById("humidity").textContent = jsObject.main.humidity + "%";
+});
+
+
+// This is for the rental options cards
+
+const rentalOptions = 'https://okaform.github.io/lesson13/data/rentaloptions.json';
+fetch(rentalOptions)
+.then((response) => response.json())
+.then((jsObject2) => {
+    console.log(jsObject2);
+
+    const rentalType = jsObject2['rental-type'];
+
+    for (let i = 0; i < rentalType.length; i++) {
+        let card = document.createElement('section');
+        let h3 = document.createElement('h3');
+        let img = document.createElement('img');
+        let maxPersons = document.createElement('p');
+        let walkInPrice = document.createElement('p');
+        let reservePrice = document.createElement('p');
+        let reserveLink = document.createElement('a');
+
+        h3.textContent = rentalType[i].name;
+        img.setAttribute('src', "images/" + rentalType[i].photo);
+        img.setAttribute('alt', rentalType[i].name);
+        maxPersons.textContent = "Max. Persons" + rentalType[i].maxPersons;
+
+    }
 });
