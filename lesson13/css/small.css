@@ -126,6 +126,7 @@ footer div.social-icons img {
 
 footer div.social-icons img:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 
