@@ -42,7 +42,8 @@ display: none;
 nav {
     /* margin-right: auto;
     margin-left: auto; */
-   
+    /* display: flex;
+    fle */
 }
 
 #primaryNav li {
@@ -56,9 +57,16 @@ nav {
     font-size: 1em;
 }
 
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/                       FOR THE INDEX PAGE                      /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
-
-
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
 
 
 
