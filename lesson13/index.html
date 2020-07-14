@@ -115,10 +115,17 @@
         <h2>WEATHER INFO</h2>
         <div class="weather-info">
             <section class="wstats"> 
-                <h4>Location: </h4> <span id="Location"> Cozumel</span>
-                <p>Current Temperature: </p> <span id="cTemp"></span>
-                <p>Current Description: </p> <span id="cDescrip"></span>
-                <p>Humidity: </p> <span id="humidity"></span>
+                <h2 id="Location">Conzumel</h2>
+                <div class="first-row">
+                <p id="getDay"></p>
+                <p id="cDescrip"></p> 
+                <p>Humidity: <span id="humidity"></span></p> 
+                </div>
+                <div class="current-weather">
+                    <img src="#" alt="placeholder image" id="cWeatherImage">
+                   <h3 id="cTemp"></h3> <!-- <button onclick="changetoF()">&deg;F</button><button onclick="changetoC()">&deg;C</button> -->
+                </div>
+
             </section>
             <div class="table-container"> 
             <table class="five-forecast-table">

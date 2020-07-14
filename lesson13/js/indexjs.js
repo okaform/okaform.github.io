@@ -56,13 +56,20 @@ fetch(weatherURL)
 .then((response) => response.json())
 .then((jsObject) => {
 
-    // console.log(jsObject);
-    // console.table(jsObject);
+     //console.log(jsObject);
+     //console.table(jsObject);
 
-    //document.getElementById("Location").textContent = jsObject.name;
+    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
+    const desc = jsObject.weather[0].description;
+    document.getElementById("cWeatherImage").setAttribute("src", imagesrc);
+    document.getElementById("cWeatherImage").setAttribute("alt", desc);
+
+    document.getElementById("getDay").textContent = arrayOfday[new Date().getDay()];
+    document.getElementById("Location").textContent = jsObject.name;
     document.getElementById("cTemp").innerHTML = ((jsObject.main.temp - 273.15) * (9 / 5) + 32).toFixed(1) + " &deg;F";
     document.getElementById("cDescrip").textContent = jsObject.weather[0].description;
     document.getElementById("humidity").textContent = jsObject.main.humidity + "%";
+    
 });
 
 
@@ -156,8 +163,8 @@ fetch(forecastURL)
     .then((response) => response.json())
     .then((jsObject3) => {
 
-        console.table(jsObject3);
-        console.log(jsObject3);
+        //console.table(jsObject3);
+        //console.log(jsObject3);
 
         const forecast = jsObject3['list'];
 
@@ -172,3 +179,13 @@ fetch(forecastURL)
         }
 
     });
+
+    //functions that change to celsuis and farenheit on the forcast table.
+
+    // function changetoF() {
+
+    // }
+
+    // function changetoC() {
+
+    // }

@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
-p, li, figcaption, span, a {
+p, li, figcaption, span, a, button {
     font-family: 'Inconsolata', monospace;
 }
 
@@ -237,7 +237,7 @@ main.index h2 a:hover {
 /* For the rental summary cards */
 .cards {
     display: block;
-    padding: 1em;
+    padding: 1em 1em 0;
     text-align: center;
     background-color: #D9CAB3;
     box-shadow: 0 -3px 15px #7483af;
@@ -263,24 +263,40 @@ main.index h2 a:hover {
 /* FOr the weather summary */
 
 .wstats {
-    margin: 0 10%;
+    margin: 0 8%;
     padding: .5em 0;
     background: radial-gradient(#E7C24F, #D9CAB3);
     border: 1px solid #454955;
     box-shadow: 0 0 25px #000;
     opacity: .8;
     display: grid;
-    grid-template-columns: 160px 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
-.wstats h4, .wstats p, .wstats span {
+h2#Location {
+    grid-column: 1 / 3;
     margin: 0;
-    padding: .3em .3em .3em .1em;
-    font-size: .8em;
+    padding: .3em .2em;
+    
 }
 
-.wstats h4, .wstats p {
-    text-align: right;
+.wstats h3 {
+    font-size: 1.5em;
+    
+}
+
+.wstats h3, .wstats span {
+    margin: 0;
+    padding: 0;
+}
+
+ .wstats p {
+    margin: 0;
+    padding: .3em .3em .3em 1em;
+}
+
+ .wstats p {
+    text-align: left;
 }
 
 
@@ -289,7 +305,7 @@ main.index h2 a:hover {
 }
 
 /* for the forcast table */
-.five-forecast-table {
+.table-container {
     display: none;
 }
 
