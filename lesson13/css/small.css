@@ -291,7 +291,6 @@ main.index h2 a:hover {
 /* for the forcast table */
 .five-forecast-table {
     display: none;
-    transition: 1s
 }
 
 /* contact information */
