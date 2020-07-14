@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="cozumel scoots rental page">
+    <link rel="shortcut icon" href="images/iconfinder_scooter-favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+    <title>Cozumel Scoots Rental Page</title>
+</head>
+<body>
+    <div class="headNavContainer">
+  <header class="header index">
+    <picture class="icon">
+        <img src="images/iconfinder_scooter_64px.png" alt="icon for cozumelscoots" />
+        </picture>   
+        <h1>Scoots</h1>
+        <p>Where rental dreams come true!</p>
+  </header>
+
+  <nav class="nav index">
+      <p id ="changeSymbol" onclick="toggleMenu()"> &#9776;</p>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a class="active" href="reservation.html">Reservation</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+  </nav>
+    </div>
+
+
+
+  <main class="main index">
+    <picture>
+        <source srcset="images/red-jeep-medium-banner-index.jpg" media="(min-width: 32.5em) and (max-width: 64.99em)">
+         <source srcset="images/red-jeep-large-banner-index.jpg" media="(min-width: 65em)"> 
+         <img src="images/red-jeep-small-banner-index.jpg" alt="banner image" />
+     </picture> 
+
+        <h2>Report a Storm in your Area</h2>
+
+        <form action="thanks.html" method="GET">
+            <!-- This is for Reporter's information -->
+            <fieldset>
+                <legend>Reporter's Information</legend>
+            
+            <label class="top">Full Name*: <input id="fullnames" type="text" name="fullname" required pattern="[A-Za-z ]+" minlength="5" 
+                title="You must have your first and last name seperated by a space. for example: James Franko" ></label>
+
+
+            
+            <label class="top">Email: 
+                <input id="emails" type="email" name="email" placeholder="example@gmail.com" >
+            </label>
+            
+
+            
+            <label class="top">Phone Number: 
+                <input id="tels" type="tel" name="phone" required placeholder="5458971234">
+            </label>
+ 
+            
+            <label class="top">Zipcode: 
+                <input type="number" name="zipcode" required >
+            </label>
+            
+            </fieldset>
+            
+            <!-- This is for Storm Information -->
+            <fieldset>
+            <legend>Storm Information</legend>
+            
+            <label class="top">Date of Storm: 
+                <input type="date" name="stormdate" >
+            </label>
+
+            
+            <label class="top" >Type of Storm: 
+                <input list="stormtypes" name="stormtype" >
+            <datalist id="stormtypes">
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Tornado"></option>
+            </datalist>
+        </label>
+            
+
+            
+            <label class="own" for="rating">Storm Severity (1 to 10): <br>
+            <input list="tickmarks" type="range" value="5" step="1" name="severity" id="rating" min="1" max="10"
+            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" />
+            <span id="ratingvalue">5</span>
+            
+            <datalist id="tickmarks">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+                <option value="7"></option>
+                <option value="8"></option>
+                <option value="9"></option>
+                <option value="10"></option>
+            </datalist>    
+            </label>
+            
+
+            
+            <label class="top"> Storm Region: 
+            <select name="towns" >
+                <option value="">Select Region &#9662;</option>
+                <option value="Fish Haven">Fish Haven</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda Springs">Soda Springs</option>
+                
+            </select>
+            </label>
+            
+            </fieldset>
+
+            <!-- Additional Information -->
+            <fieldset>
+                <legend>Additional Information</legend>
+            
+            <div>Are you in danger? </div>
+
+            <label class="sbs"><input type="radio" name="choices" value="Yes"> Yes </label> 
+        
+            <label class="sbs"><input type="radio" name="choices" value="maybe"> Maybe</label>
+        
+            <label class="sbs"><input type="radio" name="choices" value="no" checked> No</label>
+
+           
+
+            
+            <label class="top">Additional Information or Comments: <textarea rows="10" cols="39" name="comments"></textarea></label>
+            </fieldset>
+            
+                <input onclick="getInfo()" class="submitBtn" type="submit" value="Report Storm">
+
+        </form>    
+    </main>
+
+
+  <footer class="footer index">
+      <div>
+        <p>&copy; Cozumel Scoots - Marvellous Okafor </p>
+        <p><a href="#">Resource Page</a> | <a href="#">Terms of Use</a></p>
+        <p>Last Updated: <span id="lastUpdated"></span></p>
+        </div>
+
+        <div class="social-icons">
+            <img src="images/iconfinder_facebook-circle-black.png" alt="facebook icon">
+            <img src="images/iconfinder_twitter-circle-black.png" alt="twitter icon">
+            <img src="images/iconfinder_linkedin-circle-black.png" alt="linkedin icon">
+        </div>
+    
+
+  </footer>
+  <script src="#"></script>
+</body>
+</html>

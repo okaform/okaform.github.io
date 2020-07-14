@@ -169,10 +169,30 @@ h2#Location {
 }
 
 
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/                       FOR THE RENTALS PAGE                      /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
 
 
 
+
+
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/                  FOR THE RESERVATION PAGE                      /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+
+.text-headings h1 {
+    font-size: 2em;
+}
+
+/*main*/ 
+main {
+    width: 80%;
+}
 
 
 
