@@ -254,6 +254,21 @@ main.index h2 a:hover {
     width: 100%;
 }
 
+.cards section a {
+    color: white;
+    border: 2px solid #E7C24F;
+    padding: .5em;
+    text-decoration: none;
+    display: none;
+    width: 80%;
+    margin: 0 auto .6em;
+}
+
+.cards section a:hover {
+    background-color: white;
+    color: #35502B;
+}
+
 .cards section h3, .cards section p {
     margin: 0;
     padding: .5em 0;
@@ -341,4 +356,11 @@ img.gmap {
     padding-left: 1.8em;
 }
 
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/                       FOR THE RENTALS PAGE                      /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
+.cards section a {
+    display: block;
+}
