@@ -169,7 +169,8 @@ main.index p.weAreCozumel {
 .picContainer {
     margin: 0 auto;
     width: 90%;
-    height: auto;
+    position: relative; /*so that the absolute for the buttons will work*/
+    height: 15em;
 }
 
 .picContainer img {
@@ -180,24 +181,25 @@ div.slider {
     height: 15em;
 }
 
+div.slider picture {
+    height: 15em;
+}
+
 /* This is for the image slider button */
 .picContainer button {
     border: none;
     font-size: 2em;
     cursor: pointer;
     background-color: transparent;
-    color: white;
+    color: red;
     position: absolute;
+    top: 50%;
+    bottom: 50%;
 }
 
-.picContainer .display-left {
-    
-}
 
-.picContainer .display-right {
-   
-    top: 150px;
-    left: 270px;
+.picContainer button.display-right {
+    right: 0;
 }
 
 /* for the text on the image */
@@ -205,22 +207,20 @@ div.slider {
 h3.best {
     text-align: center;
     color: white;
-    position: relative;
-    bottom: 90px;
+    padding: .5em;
     margin: 0;
     background-color: rgba(128, 128, 128, .5);
+    position: absolute;
 }
 
  .rely {
     text-align: center;
     color: white;
-    position: relative;
-    bottom: 200px;
-    left: 80px;
     font-size: 2em;   
     background-color: rgba(128, 128, 128, .5);
-    width: 200px;
+    
     margin: 0;
+    position: absolute;
 } 
 
 /* for the we are cozumel scoots text */

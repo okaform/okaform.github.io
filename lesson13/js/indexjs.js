@@ -41,10 +41,10 @@ function showDivs(n) {
 }
 
 //This makes it automatic
-  window.addEventListener("load", function() {
-      showDivs(slideIndex);
-      setInterval(function() {plusDivs(1)}, 4000);
-  });
+//   window.addEventListener("load", function() {
+//       showDivs(slideIndex);
+//       setInterval(function() {plusDivs(1)}, 4000);
+//   });
 
 
 
