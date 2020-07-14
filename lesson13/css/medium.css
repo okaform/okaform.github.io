@@ -88,16 +88,12 @@ h3.best {
 }
 
 .five-forecast-table {
-    display: table;
-}
-
-table {
+    display: initial;
     margin: 10px auto;
     width: 95%;
     border-spacing: .2em;
-    display: table;
-    
 }
+
 
 table th, table td {  
     text-align: center;
