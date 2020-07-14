@@ -82,24 +82,55 @@ h3.best {
 }
 
 /* for the 5 day forcast table */
+.weather-info {
+    border: 3px solid green;
+    margin: 0 4%;
+}
+
 .five-forecast-table {
-    display: block;
+    display: table;
 }
 
 table {
     margin: 10px auto;
-    width: 90%;
-    height: 300px;
+    width: 95%;
+    border-spacing: .2em;
+    display: table;
+    
 }
 
-table th, table td {
-    width: 100%;
+table th, table td {  
+    text-align: center;
+}
+
+table tbody tr th {
+    width: 80%;
+    padding: .5em 1.5em;
+}
+
+table tbody tr td {
+    width: 80%;
+    padding: .5em 1.5em;
+}
+
+table tbody tr td img {
+    
+    padding: 0;
 }
 
 
-.table-container {
-    margin: 0 auto;
+table tbody tr td p {
+    margin: 0;
 }
+
+table th {
+    background-color: #ccc;
+}
+
+table td {
+    background-color: cornsilk;
+}
+
 
 
 .cards {
