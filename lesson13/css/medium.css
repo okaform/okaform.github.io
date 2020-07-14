@@ -69,25 +69,54 @@ main.index p.weAreCozumel {
 }
 
 /* This is for the image slider */
-.picContainer {
-    height: auto;
-}
 
-
-div.slider {
-    height: auto;
-} 
 
 
 /* This is for the image slider button */
 
 
+/* for the image slider text */
+
+h3.best {
+    font-size: 1.5em;
+}
+
+/* for the forcast table */
+.five-forecast-table {
+    display: block;
+    transition: 1s;
+}
+
+/*five-day-forecast*/
 
 
 
+.five-day-forecast img {
+    width: 35px;
+}
 
+.five-day-forecast {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
 
+.five-day-forecast tr {
+    padding: 1.5em;
+    
+}
 
+.five-day-forecast p {
+    margin-top: 0;
+}
+
+.five-day-forecast th {
+    padding: .5em;
+    height: 2em;
+    background-color: #35502B;
+    color: white;
+    border: 2px solid black;
+}
 
 
 

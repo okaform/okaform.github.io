@@ -170,20 +170,13 @@ main.index p.weAreCozumel {
     margin: 0 auto;
     width: 90%;
     position: relative; /*so that the absolute for the buttons will work*/
-    height: 15em;
+    height: 100%; 
 }
 
 .picContainer img {
     width: 100%;
 }
 
-div.slider {
-    height: 15em;
-}
-
-div.slider picture {
-    height: 15em;
-}
 
 /* This is for the image slider button */
 .picContainer button {
@@ -202,30 +195,24 @@ div.slider picture {
     right: 0;
 }
 
-/* for the text on the image */
+/* for the image slider text */
 
 h3.best {
+    display: block;
     text-align: center;
     color: white;
     padding: .5em;
-    margin: 0;
-    background-color: rgba(128, 128, 128, .5);
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, .8);
     position: absolute;
+    bottom: .2em;
+    right: 0;
+    left: 0;
 }
 
- .rely {
-    text-align: center;
-    color: white;
-    font-size: 2em;   
-    background-color: rgba(128, 128, 128, .5);
-    
-    margin: 0;
-    position: absolute;
-} 
 
 /* for the we are cozumel scoots text */
 .cozumel {
-    padding: .5em;
     font-size: 1.5em;
 }
 
@@ -253,7 +240,7 @@ main.index h2 a:hover {
     padding: 1em;
     text-align: center;
     background-color: #D9CAB3;
-    box-shadow: 0 -3px 15px #454955;
+    box-shadow: 0 -3px 15px #7483af;
 }
 
 .cards section {
@@ -274,6 +261,7 @@ main.index h2 a:hover {
 
 
 /* FOr the weather summary */
+
 .wstats {
     margin: 0 10%;
     padding: .5em 0;
@@ -298,6 +286,12 @@ main.index h2 a:hover {
 
 .wstats span {
     text-align: left;
+}
+
+/* for the forcast table */
+.five-forecast-table {
+    display: none;
+    transition: 1s
 }
 
 /* contact information */
@@ -332,8 +326,4 @@ img.gmap {
     padding-left: 1.8em;
 }
 
-/* for the forcast table */
-.five-forecast-table {
-    display: none;
-    transition: 1s
-}
+
