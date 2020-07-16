@@ -14,3 +14,7 @@ function toggleMenu() {
    }
 
 }
+
+
+// This is for the last updated document
+document.getElementById("lastUpdated").innerHTML = document.lastModified;

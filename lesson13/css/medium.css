@@ -1,100 +1,146 @@
 @media screen and (min-width: 32.5em) {
-    /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+    /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 /               General styles for all pages                    /
 /                                                                /
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
 
 /* for the header and navigation */
+.sticky {
+    margin: 0 auto;
+    width: 92%;
+    display: grid;
+    grid-template-columns: 14em 1fr;
+}
+
 .headNavContainer {
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    padding-top: .7em;
 }
 
-
-.header .icon img {
-    width: 10%; 
-}
-
-.header h1 {
-    font-size: 2em;
-}
 
 /* For the button */
 p#changeSymbol {
-display: none;
+    display: none;
 }
 
-
-nav #primaryNav {
-    width: 95%;
+/* For the navigation */
+nav {
+    margin-top: .7em;
+    width: 100%;
+    height: initial;
     position: initial;
-    color: black;
-    list-style: none;
-    display: flex;
-    background-color: initial;
+    transition: none;
+    z-index: 0;
 }
 
 
+nav ul#primaryNav {
+    color: black;
+    display: flex;
+    
+}
 
-#primaryNav li {
+nav ul#primaryNav li {
     flex: 1 1 100%;
 }
 
-#primaryNav li a {
-    text-align: center;
-    color: black;
-    border-bottom: none;
-    padding: .6em .6em;
-    margin-top: .9em;
+/* For the nav links */
+nav ul#primaryNav li a {
+    padding: .8em .5em;
     font-size: 1em;
+    
 }
+
+
+/* for the scooter icon  and header text*/
+picture.icon {
+    width: 6%;
+}
+
+header .icon img {
+    width: 100%;
+}
+
+.iconHeader h1 {
+    padding-left: .1em;
+}
+
+
 
 /* THis is for the footer */
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-
+    grid-template-columns: 3fr 1fr;
+    padding: .8em 0;
+    align-items: center;
 }
 
 footer div {
-    margin: 0 0 0 6%;
+    margin: 0 0 0 4%;
+    font-size: .8em;
+    text-align: left;
+}
+
+/* For the span so that it can change to inline when we are in medium view */
+footer div .forSmallView {
+    display: initial;
 }
 
 footer div.social-icons {
-    margin: 0 6% 0 0;
+    margin: 0 4% 0 0;
 }
 
 footer div.social-icons img {
-    width: 10%;
+    width: 15%;
 }
 
+footer div p {
+    padding-top: 0;
+}
 
-/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 /                       FOR THE INDEX PAGE                      /
 /                                                                /
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
 
 /* THis is for the main */
-
+main {
+   width: 92%; 
+}
 
 /* This is for the text before the image slider */
-main.index h2 {
+main h2 {
     font-size: 2.5em;
+    margin-top: .8em;
+}
+
+main hr {
+    margin: 0 4%;
 }
 
 main.index p.weAreCozumel {
     font-size: 1.5em;
 }
 
-/* This is for the image slider */
+/* This is for the contact map information */
 
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+img.gmap {
+    display: initial;
+    width: 100%;
+}
 
-
-/* This is for the image slider button */
-
-
+section.right {
+  padding-left: 1em;
+}
 /* for the image slider text */
 
 h3.best {
@@ -112,11 +158,11 @@ h3.best {
 
 .five-forecast-table {
     margin: 10px auto;
-    width: 80%;
+    width: 100%;
     border-spacing: .3em;
 }
 
-table th, table td {  
+table th, table td {
     text-align: center;
 }
 
@@ -124,11 +170,11 @@ table tbody tr th {
     padding: .5em 1.5em;
 }
 
-table tbody tr td { 
+table tbody tr td {
     padding: .5em 1.5em;
 }
 
-table tbody tr td img {  
+table tbody tr td img {
     padding: 0;
 }
 
@@ -146,7 +192,7 @@ table td {
 
 /* This is for the weather summary */
 .wstats {
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -169,7 +215,7 @@ h2#Location {
 }
 
 
-/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 /                       FOR THE RENTALS PAGE                      /
 /                                                                /
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
@@ -179,7 +225,7 @@ h2#Location {
 
 
 
-/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 /                  FOR THE RESERVATION PAGE                      /
 /                                                                /
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
@@ -195,7 +241,7 @@ h2#Location {
     margin: 0 1em;
     height: fit-content;
     width: 100px;
-    
+
 }
 
 form {

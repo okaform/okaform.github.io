@@ -19,10 +19,11 @@ p, li, figcaption, span, a, button {
 
 /* for the header and navigation */
 
+
 .headNavContainer {
     position: relative;
     margin: 0 auto;
-    padding-top: .5em;
+    padding-top: .7em;
     width: 92%;
 }
 
@@ -102,25 +103,12 @@ header p {
 }
 
 
-/* .
+main {
+    margin: 0 auto;
 
+}
 
-/* For the button */
-
-
-
-/* this controls the navigation display */
-/*.hide {
-    display: none;
-}*/
-
-
-/* For the main */
-
-/* .main {
-   padding: 0 2%;
-
-} */
+/* THis is for the footer section */
 
 footer {
     margin: 0 auto;
@@ -133,6 +121,12 @@ footer {
 
 footer div p {
     margin: 0;
+    padding-top: .5em;
+}
+
+/* For the span so that it can change to inline when we are in medium view */
+footer div .forSmallView {
+    display: block;
     padding-top: .5em;
 }
 
@@ -172,16 +166,16 @@ main picture img {
 
 }
 
-main.index h2 {
+main h2 {
     text-align: center;
     margin: 1em 0 0;
 }
 
-main.index hr {
+main hr {
     margin: 0 2%;
 }
 
-main.index p.weAreCozumel {
+main p.weAreCozumel {
     margin: .5em 4%;
     text-align: center;
     padding: 0 4%;

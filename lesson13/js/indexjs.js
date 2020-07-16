@@ -1,9 +1,5 @@
 
 
-
-
-
-
 //The creates automatic image slider in the index page
 // set the first picture
 let slideIndex = 1;
@@ -47,9 +43,6 @@ fetch(weatherURL)
 .then((response) => response.json())
 .then((jsObject) => {
 
-     //console.log(jsObject);
-     //console.table(jsObject);
-
     const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
     const desc = jsObject.weather[0].description;
     document.getElementById("cWeatherImage").setAttribute("src", imagesrc);
@@ -62,11 +55,6 @@ fetch(weatherURL)
     document.getElementById("humidity").textContent = jsObject.main.humidity + "%";
     
 });
-
-
-
-
-
 
 
 
@@ -111,6 +99,7 @@ let day3 = document.getElementById("day3").innerHTML = arrayOfday[arrayOfDayEsti
 let day4 = document.getElementById("day4").innerHTML = arrayOfday[arrayOfDayEstimate[3]];
 let day5 = document.getElementById("day5").innerHTML = arrayOfday[arrayOfDayEstimate[4]];
 
+
 const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=3530103&APPID=418c04c2294318c72bd18980b93964a7';
 
 fetch(forecastURL)
@@ -133,6 +122,50 @@ fetch(forecastURL)
         }
 
     });
+
+
+    // This is for the rental options cards
+
+const rentalOptions = 'https://okaform.github.io/lesson13/data/rentaloptions.json';
+fetch(rentalOptions)
+.then((response) => response.json())
+.then((jsObject2) => {
+    // console.log(jsObject2);
+
+    const rentalType = jsObject2['rental-type'];
+
+    for (let i = 0; i < rentalType.length; i++) {
+        let card = document.createElement('section');
+        let h3 = document.createElement('h3');
+        let img = document.createElement('img');
+        let maxPersons = document.createElement('p');
+        let walkInPrice = document.createElement('p');
+        let reservePrice = document.createElement('p');
+        // let reserveLink = document.createElement('a');
+
+        h3.textContent = rentalType[i].name;
+        img.setAttribute('src', "images/" + rentalType[i].photo);
+        img.setAttribute('alt', rentalType[i].name + "image");
+        maxPersons.textContent = "Max. Persons: " + rentalType[i].maxPersons;
+        walkInPrice.textContent = "Walk-in Price From: " + rentalType[i].walkIn[0].halfDay;
+        reservePrice.textContent = "Reservation price From: " +rentalType[i].Reservation[0].halfDay;
+        
+        // reserveLink.setAttribute('href', "reservation.html");
+
+        card.appendChild(h3);
+        card.appendChild(img);
+        card.appendChild(maxPersons);
+        card.appendChild(walkInPrice);
+        card.appendChild(reservePrice);
+        // card.appendChild(reserveLink);
+
+        document.querySelector('div.cards').appendChild(card);
+
+
+    }
+});
+
+
 
     //functions that change to celsuis and farenheit on the forcast table.
 

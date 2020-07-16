@@ -13,6 +13,7 @@
     <title>Cozumel Scoots</title>
 </head>
 <body>
+    <div class="sticky">
     <div class="headNavContainer">
   <header>
     <div class="iconHeader">
@@ -36,15 +37,14 @@
         </ul>
   </nav>
 
+</div>
 
-
-  <main class="main index">
-    <picture>
-        <source srcset="images/red-jeep-medium-banner-index.jpg" media="(min-width: 32.5em) and (max-width: 64.99em)">
-         <source srcset="images/red-jeep-large-banner-index.jpg" media="(min-width: 65em)"> 
-         <img src="images/red-jeep-small-banner-index.jpg" alt="banner image" />
-     </picture> 
-
+<picture>
+    <source srcset="images/red-jeep-medium-banner-index.jpg" media="(min-width: 32.5em) and (max-width: 64.99em)">
+     <source srcset="images/red-jeep-large-banner-index.jpg" media="(min-width: 65em)"> 
+     <img src="images/red-jeep-small-banner-index.jpg" alt="banner image" />
+ </picture> 
+  <main>
         <h2>WHO WE ARE</h2> <hr>
         <p class="weAreCozumel">We are Cozumel Scoots located in cozumel island, Mexico. 
             We are a rental company that helps locals, tourist and basically anyone willing and wanting 
@@ -171,7 +171,7 @@
         
         <!-- Contact information -->
         <div class="contact-info">
-            <img class="gmap" src="#" alt="img of map area" />
+            <img class="gmap" src="images/gmap-index-contact.png" alt="img of map area" />
             <section class="right">
               <h3>Cozumel Scoots</h3>
               <ul class="contact-address">
@@ -187,11 +187,11 @@
   </main>
 
 
-  <footer class="footer index">
+  <footer>
       <div>
-        <p>&copy; Cozumel Scoots - Marvellous Okafor </p>
-        <p><a href="#">Resource Page</a> | <a href="#">Terms of Use</a></p>
-        <p>Last Updated: <span id="lastUpdated"></span></p>
+        <p>&copy; Cozumel Scoots - Marvellous Okafor 
+        <span class="forSmallView"><a href="#">Resource Page</a> | <a href="#">Terms of Use</a></span>
+        <span class="forSmallView">Last Updated: <span id="lastUpdated"></span></span></p>
         </div>
 
         <div class="social-icons">
@@ -199,11 +199,8 @@
             <img src="images/iconfinder_twitter-circle-black.png" alt="twitter icon">
             <img src="images/iconfinder_linkedin-circle-black.png" alt="linkedin icon">
         </div>
-    
-
   </footer>
   <script src="js/generaljs.js"></script>
   <script src="js/indexjs.js"></script>
-  <script src="js/showrentals.js"></script>
 </body>
 </html>
