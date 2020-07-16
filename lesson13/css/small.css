@@ -14,11 +14,70 @@ h1,h2,h3,h4,h5,h6 {
 
 
 p, li, figcaption, span, a, button {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Comic Neue', cursive;
 }
 
 /* for the header and navigation */
+
 .headNavContainer {
+    position: relative;
+    margin: 0 auto;
+    width: 92%;
+}
+
+p#changeSymbol {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    border: none;
+}
+
+nav {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    margin-top: 20px;
+    top: 256px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    transition: 0.5s;
+}
+nav ul#primaryNav {
+    
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #35502B;
+}
+
+nav ul#primaryNav li {
+    list-style-type: none;
+}
+
+nav ul#primaryNav li a {
+    color: white;
+    text-decoration: none;
+    padding: .7em .4em;
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+#primaryNav li a:hover {
+    background-color: aqua;
+    
+} 
+
+
+
+
+/* .headNavContainer {
     display: grid;
     grid-template-columns: 7fr 1fr;
     grid-template-rows: 70px;
@@ -28,7 +87,7 @@ p, li, figcaption, span, a, button {
 }
 
 /* for the scooter icon */
-.header .icon {
+/* .header .icon {
     margin-top: 1em;
 }
 
@@ -56,16 +115,16 @@ p#changeSymbol {
     font-size: 3em;
     border: none;
     text-align: right;
-}
+} 
 
 
 /* this controls the navigation display */
-.hide {
+/*.hide {
     display: none;
-}
+}*/
 
 /* This is for the side bar */
-#primaryNav {
+/*#primaryNav {
     padding: 0;
     margin: 0;
     position: absolute;
@@ -90,7 +149,7 @@ p#changeSymbol {
 #primaryNav li a:hover {
     background-color: aqua;
     
-}
+}  */
 
 /* For the main */
 
@@ -145,8 +204,7 @@ main picture img {
 
 /* wayfinder */
 #primaryNav li a.active {
-    color: #1D3557;
-    border-left: 2px solid #F1FAEE;
+    color: #E7C24F;
     
 }
 
