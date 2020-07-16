@@ -91,8 +91,11 @@
             </label>
 
             <label class="top">Dropoff Date: 
-                <input type="date" name="dropoffdate"  required>
+                <input type="date" name="dropoffdate"  required oninput="adjustDate()">
             </label>
+
+            <p class="period">Period: <span id="period">0</span> day(s)</p>
+            
 
             <label class="top"> Select Rental Type: 
                 <select name="towns" >
@@ -105,25 +108,17 @@
                     <option value="Jeep Wrangler - 2 door">Jeep Wrangler - 2 door</option>
                 </select>
                 </label>
-            
-            <label class="own" for="rating">Storm Severity (1 to 10): <br>
-            <input list="tickmarks" type="range" value="5" step="1" name="severity" id="rating" min="1" max="10"
-            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" />
-            <span id="ratingvalue">5</span>
-            
-            <datalist id="tickmarks">
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
-                <option value="4"></option>
-                <option value="5"></option>
-                <option value="6"></option>
-                <option value="7"></option>
-                <option value="8"></option>
-                <option value="9"></option>
-                <option value="10"></option>
-            </datalist>    
-            </label>
+
+                <label class="top"> How many? 
+                    <select name="towns" >
+                        <option value="">Number of Rentals &#9662;</option>
+                        <option value="1 vehicle">1 vehicle</option>
+                        <option value="2 vehicle">2 vehicle</option>
+                        <option value="3 vehicler">3 vehicle</option>
+                        <option value="4+ vehicle">4+ vehicle</option>
+                    </select>
+                    </label>
+
             
             </fieldset>
 
@@ -163,5 +158,6 @@
 
   </footer>
 <script src="js/reservation.js"></script>
+
 </body>
 </html>

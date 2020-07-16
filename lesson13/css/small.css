@@ -376,26 +376,24 @@ img.gmap {
 .formContainer {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .rentInfo {
     background-color: #E7C24F;
     border: 2px solid #454955;
-    border-radius: 10px;
-    width: 80%;
-    margin: 0 auto;
     padding: .5em;
     box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: 0 auto;
 }
 
 
 
 /*Form*/
 
-form {
-    width: 80%;
-    margin: 0 auto;
-}
 
 form fieldset {
     margin: 1.8em 0;
@@ -422,7 +420,10 @@ form label.own {
     padding-top: 1em;
 }
 
-
+p.period {
+    margin: 0;
+    padding: .75rem;
+}
 
 form label.top input, form label.top select {
     -webkit-appearance: none;
@@ -430,7 +431,7 @@ form label.top input, form label.top select {
     font-size: 1em;
     border-radius: 4px;
     padding: .75rem;
-    width: 100%;
+    width: 87%;
     max-width: 20em;
     
 }
