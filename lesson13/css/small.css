@@ -42,8 +42,6 @@ nav {
     width: 0;
     height: 100%;
     position: absolute;
-    margin-top: 20px;
-    top: 200px;
     right: 0;
     z-index: 1;
     transition: 0.5s;
