@@ -1,4 +1,4 @@
-/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 /               General styles for all pages                    /
 /                                                                /
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
@@ -9,7 +9,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Ubuntu', sans-serif;   
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -22,9 +22,11 @@ p, li, figcaption, span, a, button {
 .headNavContainer {
     position: relative;
     margin: 0 auto;
+    padding-top: .5em;
     width: 92%;
 }
 
+/* For the button */
 p#changeSymbol {
     position: absolute;
     top: 0;
@@ -35,6 +37,7 @@ p#changeSymbol {
     border: none;
 }
 
+/* FOr the navigation container */
 nav {
     width: 0;
     height: 100%;
@@ -72,51 +75,40 @@ nav ul#primaryNav li a {
 
 #primaryNav li a:hover {
     background-color: aqua;
-    
+
+}
+
+/* for the scooter icon  and header text*/
+picture.icon {
+    width: 12%;
+}
+
+.iconHeader {
+    display: flex;
+    align-items: center;
+}
+
+.iconHeader h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+header .icon img {
+    width: 70%;
 } 
 
-
-
-
-/* .headNavContainer {
-    display: grid;
-    grid-template-columns: 7fr 1fr;
-    grid-template-rows: 70px;
-    overflow: hidden;
-    width: 100%;
-    margin: .5em 2% 0;
-}
-
-/* for the scooter icon */
-/* .header .icon {
-    margin-top: 1em;
-}
-
-.header .icon img {
-    width: 12%; 
-    position: relative;
-    top: .3em;
-}
-.header h1 {
-    display: inline;
-    margin: 0 0 10px;
-    font-size: 2em;
-}
-
-.header p {
-    font-size: .8em;
+header p {
+    margin: 0;
     font-style: italic;
-    margin: 0;
-    
+    font-size: .8em;
 }
+
+
+/* .
+
+
 /* For the button */
-p#changeSymbol {
-    margin: 0;
-    padding: 0;
-    font-size: 3em;
-    border: none;
-    text-align: right;
-} 
+
 
 
 /* this controls the navigation display */
@@ -124,39 +116,12 @@ p#changeSymbol {
     display: none;
 }*/
 
-/* This is for the side bar */
-/*#primaryNav {
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    color: white;
-    list-style: none;
-    width: 200px;
-    top: 80px;
-    right: 0;
-    background-color: grey;
-}
-
-
-#primaryNav li a {
-    color: white;
-    text-decoration: none;
-    padding: .7em .4em;
-    display: block;
-    font-size: 1.2em;
-    border-bottom: 3px solid red;
-}
-
-#primaryNav li a:hover {
-    background-color: aqua;
-    
-}  */
 
 /* For the main */
 
 /* .main {
-   padding: 0 2%; 
-   
+   padding: 0 2%;
+
 } */
 
 footer {
@@ -192,7 +157,7 @@ footer div.social-icons img:hover {
 }
 
 
-/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 /                       FOR THE INDEX PAGE                      /
 /                                                                /
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
@@ -206,7 +171,7 @@ main picture img {
 /* wayfinder */
 #primaryNav li a.active {
     color: #E7C24F;
-    
+
 }
 
 main.index h2 {
@@ -229,7 +194,7 @@ main.index p.weAreCozumel {
     margin: 0 auto;
     width: 90%;
     position: relative; /*so that the absolute for the buttons will work*/
-    height: 100%; 
+    height: 100%;
 }
 
 .picContainer img {
@@ -351,12 +316,12 @@ h2#Location {
     grid-column: 1 / 3;
     margin: 0;
     padding: .3em .2em;
-    
+
 }
 
 .wstats h3 {
     font-size: 1.5em;
-    
+
 }
 
 .wstats h3, .wstats span {
@@ -415,7 +380,7 @@ img.gmap {
     padding-left: 1.8em;
 }
 
-/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 /                       FOR THE RENTALS PAGE                      /
 /                                                                /
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
@@ -425,7 +390,7 @@ img.gmap {
 }
 
 
-/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 /                  FOR THE RESERVATION PAGE                      /
 /                                                                /
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
@@ -492,7 +457,7 @@ form label.top input, form label.top select {
     padding: .75rem;
     width: 87%;
     max-width: 20em;
-    
+
 }
 
 form label.top textarea {
