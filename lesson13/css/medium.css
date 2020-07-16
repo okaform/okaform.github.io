@@ -190,12 +190,17 @@ h2#Location {
     flex-direction: row;
 }
 
+.rentInfo {
+    flex: 1 1 auto;
+}
 
-
-form {
+form, .rentInfo {
     margin: 0 1em;
 }
 
+form fieldset {
+    margin-top: 0;
+}
 
 
 
