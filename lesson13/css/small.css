@@ -139,7 +139,7 @@ footer div.social-icons img:hover {
 
 
 /* for the banner */
-.index picture img {
+main picture img {
     width: 100%;
 }
 
@@ -372,6 +372,20 @@ img.gmap {
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
 
+/* For the rental agrrement form */
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.rentInfo {
+    background-color: #E7C24F;
+    border: 2px solid #454955;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    padding: .5em;
+}
 
 
 
@@ -379,9 +393,10 @@ img.gmap {
 
 form {
     width: 80%;
+    margin: 0 auto;
 }
 
-form fieldset {
+form fieldset, .formContainer .rentInfo {
     margin: 1.8em 0;
     border: 2px solid #454955;
     border-radius: 10px;
@@ -389,7 +404,7 @@ form fieldset {
     padding: .5rem 2%;
 }
 
-form legend {
+form legend, .rentInfo legend {
     font-size: 1.3em;
     margin: 0 1rem;
     padding: 0 .5rem;

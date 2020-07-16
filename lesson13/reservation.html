@@ -36,63 +36,75 @@
 
 
 
-  <main class="main">
-    <picture>
+  <main >
+    <picture> 
         <source srcset="images/red-jeep-medium-banner-index.jpg" media="(min-width: 32.5em) and (max-width: 64.99em)">
          <source srcset="images/red-jeep-large-banner-index.jpg" media="(min-width: 65em)"> 
          <img src="images/red-jeep-small-banner-index.jpg" alt="banner image" />
      </picture> 
 
-        <h2>Report a Storm in your Area</h2>
+        <h2>Start Your Adventure</h2>
+        <div class="formContainer">
+        <fieldset class="rentInfo">
+            <legend>Rental Agreement Information</legend>
+            <p>A $50 security deposit is required to confirm reservations.</p>
+            <p>A valid drivers license is required in hand at time of rental.</p>
+            <p>No one under 12 years of age are allowed to ride on the scooters.</p>
+            <p>Fuel charge not included.</p>
+            <p>Unlimited mileage.</p>
+            <p>Liability insurance is free of charge.</p>
+            <p>Reservations rate requires 24 hour prior notification.</p>
+            <p>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</p>
+            <p>Payment via Google Pay, cash, credit card, debit card, or PayPal.</p>
+            <p>Rentals may be returned to either location.</p>
+
+        </fieldset>
 
         <form action="thanks.html" method="GET">
             <!-- This is for Reporter's information -->
             <fieldset>
-                <legend>Reporter's Information</legend>
+                <legend>Renter's Information</legend>
             
             <label class="top">Full Name*: <input id="fullnames" type="text" name="fullname" required pattern="[A-Za-z ]+" minlength="5" 
                 title="You must have your first and last name seperated by a space. for example: James Franko" ></label>
 
-
-            
             <label class="top">Email: 
-                <input id="emails" type="email" name="email" placeholder="example@gmail.com" >
+                <input id="emails" type="email" name="email" placeholder="example@gmail.com" required>
             </label>
-            
-
             
             <label class="top">Phone Number: 
                 <input id="tels" type="tel" name="phone" required placeholder="5458971234">
             </label>
  
-            
-            <label class="top">Zipcode: 
-                <input type="number" name="zipcode" required >
+            <label class="top">Home State/Country: 
+                <input type="text" name="homecountry" >
             </label>
             
             </fieldset>
             
             <!-- This is for Storm Information -->
             <fieldset>
-            <legend>Storm Information</legend>
+            <legend>Rental Details</legend>
             
-            <label class="top">Date of Storm: 
-                <input type="date" name="stormdate" >
+            <label class="top">Pickup Date: 
+                <input type="date" name="pickupdate" oninput="adjustDate()">
             </label>
 
-            
-            <label class="top" >Type of Storm: 
-                <input list="stormtypes" name="stormtype" >
-            <datalist id="stormtypes">
-                <option value="Flash Flood"></option>
-                <option value="Hail"></option>
-                <option value="Hurricane"></option>
-                <option value="Thunderstorm"></option>
-                <option value="Tornado"></option>
-            </datalist>
-        </label>
-            
+            <label class="top">Dropoff Date: 
+                <input type="date" name="dropoffdate"  required>
+            </label>
 
+            <label class="top"> Select Rental Type: 
+                <select name="towns" >
+                    <option value="">Rental Type &#9662;</option>
+                    <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+                    <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+                    <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
+                    <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+                    <option value="Jeep Wrangler - 4 door with a/c">Jeep Wrangler - 4 door with a/c</option>
+                    <option value="Jeep Wrangler - 2 door">Jeep Wrangler - 2 door</option>
+                </select>
+                </label>
             
             <label class="own" for="rating">Storm Severity (1 to 10): <br>
             <input list="tickmarks" type="range" value="5" step="1" name="severity" id="rating" min="1" max="10"
@@ -113,41 +125,25 @@
             </datalist>    
             </label>
             
-
-            
-            <label class="top"> Storm Region: 
-            <select name="towns" >
-                <option value="">Select Region &#9662;</option>
-                <option value="Fish Haven">Fish Haven</option>
-                <option value="Preston">Preston</option>
-                <option value="Soda Springs">Soda Springs</option>
-                
-            </select>
-            </label>
-            
             </fieldset>
 
             <!-- Additional Information -->
             <fieldset>
                 <legend>Additional Information</legend>
             
-            <div>Are you in danger? </div>
+            <div>Are you with a Cruise Line? </div>
 
             <label class="sbs"><input type="radio" name="choices" value="Yes"> Yes </label> 
         
-            <label class="sbs"><input type="radio" name="choices" value="maybe"> Maybe</label>
-        
             <label class="sbs"><input type="radio" name="choices" value="no" checked> No</label>
-
-           
-
             
-            <label class="top">Additional Information or Comments: <textarea rows="10" cols="39" name="comments"></textarea></label>
+            <label class="top">Special Accomodations or Comments: <textarea rows="10" cols="39" name="comments"></textarea></label>
             </fieldset>
             
-                <input onclick="getInfo()" class="submitBtn" type="submit" value="Report Storm">
+                <input onclick="getInfo()" class="submitBtn" type="submit" value="Reserve Your Booking">
 
-        </form>    
+        </form>   
+    </div> 
     </main>
 
 
@@ -166,6 +162,6 @@
     
 
   </footer>
-  <script src="#"></script>
+<script src="js/reservation.js"></script>
 </body>
 </html>

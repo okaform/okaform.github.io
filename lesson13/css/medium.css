@@ -185,6 +185,16 @@ h2#Location {
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
 
+/* For the rental agrrement form */
+.formContainer {
+    flex-direction: row;
+}
+
+
+
+form {
+    margin: 0 1em;
+}
 
 
 
