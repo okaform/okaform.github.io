@@ -584,3 +584,28 @@ a.owm {
     text-decoration: none;
     color: #E7C24F;
 }
+
+  /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/                  FOR THE TOURS PAGE                      /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+div.tours {
+    margin: 0 auto;
+    width: 92%;
+}
+
+
+.toursBtn {
+    padding: 1em;
+    width: 100%;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    transition: 0.4s;
+    border-radius: 12px 12px 0 0;
+}
+
+.toursBtn:hover {
+    background-color: rgb(172, 125, 125);
+}
