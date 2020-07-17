@@ -226,9 +226,6 @@ h2#Location {
 
 
 
-
-
-
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 /                  FOR THE RESERVATION PAGE                      /
 /                                                                /
@@ -236,7 +233,9 @@ h2#Location {
 
 
 /* For the rental agrrement form */
-.formContainer {
+
+
+/* .formContainer {
     flex-direction: row;
 }
 
@@ -254,7 +253,7 @@ form {
 
 form fieldset {
     margin-top: 0;
-}
+} */
 
 
 

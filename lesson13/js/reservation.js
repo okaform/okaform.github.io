@@ -36,5 +36,20 @@ function adjustDate() {
 }
 
 
+// For accordion
+let drp = document.getElementsByClassName("rentBtn");
+let i;
+for (i = 0; i < drp.length; i++) {
+  drp[i].addEventListener("click", function() {
+    this.classList.toggle("after");
+    let panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    }
+    else {
+      panel.style.display = "block";
+    }
+  });
+}
 
 

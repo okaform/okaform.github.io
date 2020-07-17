@@ -389,23 +389,70 @@ img.gmap {
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
 
-/* For the rental agrrement form */
+.reserve h2 {
+    margin-bottom: 0.3em;
+}
+/* For the rental agreement button */
+.rentBtn {
+    padding: 1em;
+    width: 100%;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    transition: 0.4s;
+    border-radius: 12px 12px 0 0;
+}
+
+.rentBtn:hover {
+    background-color: rgb(172, 125, 125);
+}
+
+.rentBtn:after {
+    content: '+';
+    float: right;
+    font-weight: bold;
+}
+
+.after:after {
+    content: "-";
+}
+
+.rentInfo {
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
 .formContainer {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
+}
+
+.formContainer div {
+    background-color: #E7C24F;
+    border-radius: 12px;
 }
 
 .rentInfo {
-    background-color: #E7C24F;
+    width: 92%;
+    margin: 0 auto;
+    transition: 0.5s ease-in;
+}
+/* For the rental agrrement form */
+/* 
+
+.rentInfo {
+    
     border: 2px solid #454955;
     padding: .5em;
     box-sizing: border-box;
     border-radius: 10px;
     margin-left: auto;
-    margin-right: 0 auto;
-}
+    margin-right: auto;
+} */
 
 
 
