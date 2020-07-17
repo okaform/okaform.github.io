@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="cozumel scoots rental page">
+    <meta name="description" content="cozumel scoots Contact Us page">
     <link rel="shortcut icon" href="images/iconfinder_scooter-favicon.ico" type="image/x-icon"> 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Ubuntu:wght@400&display=swap" rel="stylesheet">
-    <title>Cozumel Scoots Rental Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Cozumel Scoots Contact Us Page</title>
 </head>
 <body>
   <div class="sticky">
@@ -47,9 +47,12 @@
 
   <main >
 
+    <div class="contact">
     <h2>Contact Us</h2>
 
-    <p>Feel free to contact us with any questions or concerns you may have by filling out the form or by visiting us at any of our 2 locations on cozumel. You can see our locatinos at the bottom of the 
+    <p>Feel free to contact us with any questions or concerns you may have by filling out 
+      the form or by visiting us at any of our 2 locations on cozumel. 
+      You can see our locatinos at the bottom of the 
       the screen. You can also call us at 999.999.9999 during our business hours. 
     </p>
 
@@ -59,10 +62,7 @@
       <li>Saturday: 10:00 - 10:00 PM</li>
       <li>Sunday: CLOSED</li>
     </ul>
-    <iframe class="playa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.8592003828144!2d-86.95297304903669!3d20.51199738621328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cf3a0ece15%3A0x9216e3c2b55e5526!2sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock!5e0!3m2!1sen!2sus!4v1594913144293!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29898.48978928557!2d-86.97985310796393!3d20.49346421829226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5748bac98d29%3A0xec697a2a774f7a00!2sPuerta%20Maya%20Cruise%20Ship%20Terminal!5e0!3m2!1sen!2sus!4v1594913260349!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
+ 
         <form action="thanks.html" method="GET">
             <fieldset>
                 <legend>Contact Us</legend>
@@ -82,24 +82,38 @@
           </fieldset>
           
               <input onclick="getInfo()" class="submitBtn" type="submit" value="Submit Contact Form">
-            
-            </fieldset>
+            </form>
+
+            <div class="mapContainer">
+              <div>
+            <h4>Our Primary Location</h4>
+            <iframe class="playa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.8592003828144!2d-86.95297304903669!3d20.51199738621328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cf3a0ece15%3A0x9216e3c2b55e5526!2sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock!5e0!3m2!1sen!2sus!4v1594913144293!5m2!1sen!2sus"></iframe>
+          </div>
+
+            <div>
+            <h4>Our Secondary Location</h4>
+            <iframe class="puerta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29898.48978928557!2d-86.97985310796393!3d20.49346421829226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5748bac98d29%3A0xec697a2a774f7a00!2sPuerta%20Maya%20Cruise%20Ship%20Terminal!5e0!3m2!1sen!2sus!4v1594913260349!5m2!1sen!2sus"></iframe>
+          </div>
+          </div>
+          </div>
+
     </main>
 
 
-  <footer class="footer index">
+    <footer>
+      <div class="footer">
       <div>
-        <p>&copy; Cozumel Scoots - Marvellous Okafor </p>
-        <p><a href="#">Resource Page</a> | <a href="#">Terms of Use</a></p>
-        <p>Last Updated: <span id="lastUpdated"></span></p>
+        <p>&copy; Cozumel Scoots - Marvellous Okafor 
+        <span class="forSmallView"><a href="#">Resource Page</a> | <a href="#">Terms of Use</a></span>
+        <span class="forSmallView">Last Updated: <span id="lastUpdated"></span></span></p>
         </div>
-
+  
         <div class="social-icons">
             <img src="images/iconfinder_facebook-circle-black.png" alt="facebook icon">
             <img src="images/iconfinder_twitter-circle-black.png" alt="twitter icon">
             <img src="images/iconfinder_linkedin-circle-black.png" alt="linkedin icon">
         </div>
-    
+    </div>
 
   </footer>
 
