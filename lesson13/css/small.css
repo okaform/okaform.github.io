@@ -599,13 +599,69 @@ div.tours {
 .toursBtn {
     padding: 1em;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto .5em;
     outline: none;
     border: none;
-    transition: 0.4s;
+    transition: 0.6s;
     border-radius: 12px 12px 0 0;
+    background-color: lightcyan;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .toursBtn:hover {
     background-color: rgb(172, 125, 125);
+}
+
+.tours > p {
+    text-align: center;
+}
+
+.tours > section {
+    height: 0;
+    overflow-y: hidden;
+    transition: 1s ease-out;
+}
+
+/* For the images in the section */
+.tours section img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* for the score card section */
+.tours section div .score-card {
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid tomato;
+}
+
+.tours section div .score-card li {
+    padding: 1em;
+    
+}
+
+.tours section div .score-card li:first-child {
+    font-weight: bold;
+    font-size: 1em;
+    background-color: darkgray;
+}
+
+/* for the key-info section */
+.tours section div .key-info {
+    border: 2px solid tomato;
+    margin-bottom: .5em;
+}
+
+.tours section div .key-info h3,
+.tours section div .key-info h4 {
+    font-weight: lighter;
+    background-color: darkgray;
+    padding: 1em;
+    margin: 0;  
+}
+
+.tours section div .key-info p {
+    padding: .5em .5em;
+    margin: 0 0 .5em;
 }

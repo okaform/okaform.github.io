@@ -232,28 +232,21 @@ h2#Location {
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
 
-/* For the rental agrrement form */
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/                  FOR THE TOURS PAGE                            /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
 
-/* .formContainer {
-    flex-direction: row;
+.tours:nth-child(odd) > section img {
+    width: 50%;
+    float: left;
 }
 
-.rentInfo {
-    flex: 1 1 100%;
-    margin: 0 1em;
-    height: fit-content;
-    width: 100px;
-
+.tours:nth-child(even) > section img {
+    width: 50%;
+    float: right;
 }
-
-form {
-    margin: 0 1em;
-}
-
-form fieldset {
-    margin-top: 0;
-} */
 
 
 
