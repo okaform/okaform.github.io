@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
     <title>Cozumel Scoots Rental Page</title>
 </head>
 <body>
@@ -29,59 +29,47 @@
 
     <nav id="navContainer">      
         <ul id="primaryNav" class="hide">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="rentals.html">Rentals</a></li>
             <li><a href="reservation.html">Reservation</a></li>
             <li><a href="tours.html">Tours</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
   </nav>
+</div>
 
-  <main class="main">
-    <picture>
-        <source srcset="images/red-jeep-medium-banner-index.jpg" media="(min-width: 32.5em) and (max-width: 64.99em)">
-         <source srcset="images/red-jeep-large-banner-index.jpg" media="(min-width: 65em)"> 
-         <img src="images/red-jeep-small-banner-index.jpg" alt="banner image" />
-     </picture> 
+  <picture>
+    <source srcset="images/red-jeep-medium-banner-index.jpg" media="(min-width: 32.5em) and (max-width: 64.99em)">
+     <source srcset="images/red-jeep-large-banner-index.jpg" media="(min-width: 65em)"> 
+     <img src="images/red-jeep-small-banner-index.jpg" alt="banner image" />
+ </picture> 
 
+
+  <main>
         <!-- Rental information showing what we rent -->
         <h2>OUR RENTALS</h2> <hr>
         <div class="cards">     
-        </div>
-        
-        <!-- Contact information -->
-        <div class="contact-info">
-            <img class="gmap" src="#" alt="img of map area" />
-            <section class="right">
-              <h3>Cozumel Scoots</h3>
-              <ul class="contact-address">
-                  <li><img src="images/iconfinder_map-marker.png" alt="map marker icon" /> Rafael E. Melggar Plaza</li>
-                  <li>Cozumel 77600 Mexico</li>
-                  <li><img src="images/iconfinder_phone.png" alt="phone icon"/> 999.999.9999</li>
-                  <li><img src="images/iconfinder_mail.png" alt="email icon"/> cozumelscoots@gmail.com</li>
-              </ul>
-
-        </section>
         </div>
 
   </main>
 
 
-  <footer class="footer index">
-      <div>
-        <p>&copy; Cozumel Scoots - Marvellous Okafor </p>
-        <p><a href="#">Resource Page</a> | <a href="#">Terms of Use</a></p>
-        <p>Last Updated: <span id="lastUpdated"></span></p>
-        </div>
+  <footer>
+    <div class="footer">
+    <div>
+      <p>&copy; Cozumel Scoots - Marvellous Okafor 
+      <span class="forSmallView"><a href="#">Resource Page</a> | <a href="#">Terms of Use</a></span>
+      <span class="forSmallView">Last Updated: <span id="lastUpdated"></span></span></p>
+      </div>
 
-        <div class="social-icons">
-            <img src="images/iconfinder_facebook-circle-black.png" alt="facebook icon">
-            <img src="images/iconfinder_twitter-circle-black.png" alt="twitter icon">
-            <img src="images/iconfinder_linkedin-circle-black.png" alt="linkedin icon">
-        </div>
-    
+      <div class="social-icons">
+          <img src="images/iconfinder_facebook-circle-black.png" alt="facebook icon">
+          <img src="images/iconfinder_twitter-circle-black.png" alt="twitter icon">
+          <img src="images/iconfinder_linkedin-circle-black.png" alt="linkedin icon">
+      </div>
+  </div>
+</footer>
 
-  </footer>
   <script src="js/generaljs.js"></script>
   <script src="js/showrentals.js"></script>
 </body>

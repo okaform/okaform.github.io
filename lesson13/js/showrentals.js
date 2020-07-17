@@ -4,7 +4,7 @@ const rentalOptions = 'https://okaform.github.io/lesson13/data/rentaloptions.jso
 fetch(rentalOptions)
 .then((response) => response.json())
 .then((jsObject2) => {
-    // console.log(jsObject2);
+
 
     const rentalType = jsObject2['rental-type'];
 
@@ -24,7 +24,7 @@ fetch(rentalOptions)
         walkInPrice.textContent = "Walk-in Price From: " + rentalType[i].walkIn[0].halfDay;
         reservePrice.textContent = "Reservation price From: " +rentalType[i].Reservation[0].halfDay;
         reserveLink.textContent = "Reserve Now";
-        reserveLink.setAttribute('href', "#");
+        reserveLink.setAttribute('href', "reservation.html");
 
         card.appendChild(h3);
         card.appendChild(img);

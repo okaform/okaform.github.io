@@ -264,26 +264,14 @@ main.index h2 a:hover {
     background-color: #35502B;
     border-radius: 5px;
     margin-bottom: 1em;
+    padding-bottom: .4em;
 }
 
 .cards section img {
     width: 100%;
 }
 
-.cards section a {
-    color: white;
-    border: 2px solid #E7C24F;
-    padding: .5em;
-    text-decoration: none;
-    display: none;
-    width: 80%;
-    margin: 0 auto .6em;
-}
 
-.cards section a:hover {
-    background-color: white;
-    color: #35502B;
-}
 
 .cards section h3, .cards section p {
     margin: 0;
@@ -377,8 +365,21 @@ img.gmap {
 /                                                                /
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
+
+
 .cards section a {
+    color: white;
+    border: 2px solid #E7C24F;
+    padding: .5em;
+    text-decoration: none;
+    width: 80%;
+    margin: 0 auto .5em;
     display: block;
+}
+
+.cards section a:hover {
+    background-color: white;
+    color: #35502B;
 }
 
 
