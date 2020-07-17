@@ -442,17 +442,6 @@ img.gmap {
     transition: 0.5s ease-in;
 }
 /* For the rental agrrement form */
-/* 
-
-.rentInfo {
-    
-    border: 2px solid #454955;
-    padding: .5em;
-    box-sizing: border-box;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 
 
@@ -621,6 +610,10 @@ div.tours {
     height: 0;
     overflow-y: hidden;
     transition: 1s ease-out;
+}
+
+.tours > section a {
+    text-decoration: none;
 }
 
 /* For the images in the section */

@@ -237,15 +237,22 @@ h2#Location {
 /                                                                /
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
-
-.tours:nth-child(odd) > section img {
-    width: 50%;
-    float: left;
+/* For the tours button */
+.toursBtn {
+    font-size: 1.5em;
 }
 
-.tours:nth-child(even) > section img {
+
+.tours > section.odd img {
+    width: 50%;
+    float: left;
+    padding: 1em .5em 0 0;
+}
+
+.tours > section.even img {
     width: 50%;
     float: right;
+    padding: 1em 0  0 .5em;
 }
 
 

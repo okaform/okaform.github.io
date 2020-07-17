@@ -98,6 +98,28 @@ form label.sbs {
 }
 
 
+  /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/                  FOR THE THANKS PAGE                      /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+/* For the tours button */
+.toursBtn {
+    font-size: 1.7em;
+}
+
+.tours > section.odd img {
+    width: 30%;
+
+}
+
+.tours > section.even img {
+    width: 30%;
+}
+
+.tours p {
+    font-size: 1.3em;
+}
 
 
 
