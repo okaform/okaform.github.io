@@ -6,6 +6,7 @@
 body {
     font-size: 18px;
     background-color: #F1FAEE;
+    color: #F1FAEE;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -85,7 +86,7 @@ nav ul#primaryNav li a {
 
 
 #primaryNav li a:hover {
-    background-color: aqua;
+    background-color: #E63946;
 
 }
 
@@ -117,7 +118,7 @@ header p {
 
 main {
     margin: 0 auto;
-    background-color: #A8DADC;
+    background-color: #F1FAEE;
 }
 
 /* THis is for the footer section */
@@ -129,6 +130,7 @@ footer {
     padding: 5px;
     text-align: center;
     color: white;
+    font-weight: bold;
     
 }
 
@@ -175,7 +177,7 @@ picture img {
 
 /* wayfinder */
 #primaryNav li a.active {
-    color: #E7C24F;
+    color: #F6AA1C;
 
 }
 
@@ -247,7 +249,7 @@ h3.best {
 
 /* For the make your reservation now button  */
 
-main.index h2 a {
+main h2 a {
     margin-top: 10px;
     text-decoration: none;
     border: 2px solid #1D3557;
@@ -257,7 +259,7 @@ main.index h2 a {
     color: white;
 }
 
-main.index h2 a:hover {
+main h2 a:hover {
     color: grey;
     background-color: white;
 }
