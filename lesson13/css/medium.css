@@ -51,13 +51,12 @@ nav ul#primaryNav li {
 nav ul#primaryNav li a {
     padding: .8em .5em;
     font-size: 1em;
-    
 }
 
 
 /* for the scooter icon  and header text*/
 picture.icon {
-    width: 6%;
+    width: 12%;
 }
 
 header .icon img {
@@ -71,33 +70,38 @@ header .icon img {
 
 
 /* THis is for the footer */
-footer {
+footer .footer{
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding: .8em 0;
     align-items: center;
 }
 
-footer div {
-    margin: 0 0 0 4%;
+footer .footer {
+    margin: 0 auto;
+    width: 92%;
+}
+
+footer .footer div {
+    margin: 0;
     font-size: .8em;
     text-align: left;
 }
 
 /* For the span so that it can change to inline when we are in medium view */
-footer div .forSmallView {
+footer .footer div .forSmallView {
     display: initial;
 }
 
-footer div.social-icons {
-    margin: 0 4% 0 auto;
+footer .footer div.social-icons {
+    margin: 0 0 0 auto;
 }
 
-footer div.social-icons img {
+footer .footer div.social-icons img {
     width: 15%;
 }
 
-footer div p {
+footer .footer div p {
     padding-top: 0;
 }
 

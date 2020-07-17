@@ -4,17 +4,74 @@
 /                                                                /
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
-#primaryNav li a {
-    margin-top: 1em;
+/* for the header and navigation */
+.sticky {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 14em 14em 1fr;
+}
+
+.headNavContainer {
+    grid-column: 1 / 2;
+}
+
+nav {
+    grid-column: 3 / 4;
+}
+
+/* for the scooter icon  and header text*/
+picture.icon {
+    width: 15%;
+}
+
+nav ul#primaryNav li a {
     font-size: 1.2em;
 }
 
+main {
+    width: 70%;
+}
 
+/* THis is for the footer */
+footer .footer {
+    width: 70%;
+    padding: 0;
+}
+
+footer .footer div {
+    font-size: 1em;
+}
+
+footer .footer div.social-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer .footer div.social-icons img {
+    width: 90%;
+}
+
+footer div.social-icons {
+    padding-top: .7em; 
+}
 
     /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
 /                       FOR THE INDEX PAGE                      /
 /                                                                /
-/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+main hr {
+    margin: 0 15%;
+}
+
+main p.weAreCozumel {
+    font-size: 1.5em;
+}
+
+img.gmap {
+    width: 90%;
+}
+
 
 /* FOr the section with cards */
 .cards {
