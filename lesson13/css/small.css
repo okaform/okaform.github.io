@@ -520,6 +520,7 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 18em;
+    cursor: pointer;
 }
 
 /* higlight the required inputs */
@@ -568,3 +569,18 @@ a.owm {
     display: table;
     clear: both;
   }
+
+  /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/                  FOR THE THANKS PAGE                      /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+.reserve {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.thanks-back {
+    text-decoration: none;
+    color: #E7C24F;
+}
