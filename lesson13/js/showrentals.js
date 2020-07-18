@@ -45,7 +45,7 @@ fetch(rentalOptions)
         maxPersons.textContent = "Max. Persons: " + rentalType[i].maxPersons;
 
         //The actual Content
-        tEmpty.textContent = '';
+        tEmpty.textContent = '#';
         tHead1.textContent = 'Half Day (3hrs)';
         tHead2.textContent = 'Full Day';
 

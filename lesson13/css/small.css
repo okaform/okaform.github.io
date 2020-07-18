@@ -315,6 +315,7 @@ table.priceTable th {
 
 table.priceTable th:first-child {
     background-color: #1d3557;
+    color: #1D3557;
 }
 
 table.priceTable td {
