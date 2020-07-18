@@ -131,38 +131,36 @@ footer {
     text-align: center;
     color: white;
     font-weight: bold;
-    
-}
 
-footer div p {
+div p {
     margin: 0;
     padding-top: .5em;
 }
 
 /* For the span so that it can change to inline when we are in medium view */
-footer div .forSmallView {
+div .forSmallView {
     display: block;
     padding-top: .5em;
 }
 
-footer div p a {
+div p a {
     color: #E7C24F;
     text-decoration: none;
 }
 
-footer div.social-icons {
+div.social-icons {
     padding-top: .7em;
 }
 
-footer div.social-icons img {
+div.social-icons img {
     opacity: 0.5;
 }
 
-footer div.social-icons img:hover {
+div.social-icons img:hover {
     opacity: 1;
     cursor: pointer;
 }
-
+}
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 /                       FOR THE INDEX PAGE                      /
@@ -277,23 +275,24 @@ main h2 a:hover {
     box-shadow: 0 -3px 15px #7483af;
 }
 
-.cards section {
+section {
     color: white;
     background-color: $primaryColor;
     border-radius: 5px;
     margin-bottom: 1em;
     padding-bottom: .4em;
-}
 
-.cards section img {
+
+section img {
     width: 100%;
 }
 
 
 
-.cards section h3, .cards section p {
+section h3, section p {
     margin: 0;
     padding: .5em 0;
+}
 }
 
 /* For the cards table showing prices */
