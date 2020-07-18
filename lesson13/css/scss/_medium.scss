@@ -1,0 +1,268 @@
+  /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/               General styles for all pages                    /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+
+/* for the header and navigation */
+.sticky {
+    margin: 0 auto;
+    width: 92%;
+    display: grid;
+    grid-template-columns: 14em 1fr;
+}
+
+.headNavContainer {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    padding-top: .7em;
+}
+
+
+/* For the button */
+p#changeSymbol {
+    display: none;
+}
+
+/* For the navigation */
+nav {
+    margin-top: .7em;
+    width: 100%;
+    height: initial;
+    position: initial;
+    transition: none;
+    z-index: 0;
+}
+
+
+nav ul#primaryNav {
+    color: black;
+    display: flex;
+    
+}
+
+nav ul#primaryNav li {
+    flex: 1 1 100%;
+}
+
+/* For the nav links */
+nav ul#primaryNav li a {
+    padding: .8em .5em;
+    font-size: 1em;
+}
+
+
+/* for the scooter icon  and header text*/
+picture.icon {
+    width: 12%;
+}
+
+header .icon img {
+    width: 100%;
+}
+
+.iconHeader h1 {
+    padding-left: .1em;
+}
+
+
+
+/* THis is for the footer */
+footer .footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: .8em 0;
+    align-items: center;
+}
+
+footer .footer {
+    margin: 0 auto;
+    width: 92%;
+}
+
+footer .footer div {
+    margin: 0;
+    font-size: .8em;
+    text-align: left;
+}
+
+/* For the span so that it can change to inline when we are in medium view */
+footer .footer div .forSmallView {
+    display: initial;
+}
+
+footer .footer div.social-icons {
+    margin: 0 0 0 auto;
+}
+
+footer .footer div.social-icons img {
+    width: 15%;
+}
+
+footer .footer div p {
+    padding-top: 0;
+}
+
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/                       FOR THE INDEX PAGE                      /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+
+/* THis is for the main */
+main {
+   width: 92%; 
+}
+
+/* This is for the text before the image slider */
+main h2 {
+    font-size: 2.5em;
+    margin-top: .8em;
+}
+
+main hr {
+    margin: 0 4%;
+}
+
+main.index p.weAreCozumel {
+    font-size: 1.5em;
+}
+
+/* This is for the contact map information */
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+img.gmap {
+    display: initial;
+    width: 100%;
+}
+
+section.right {
+  padding-left: 1em;
+}
+/* for the image slider text */
+
+h3.best {
+    font-size: 1.5em;
+}
+
+/* for the 5 day forcast table */
+.weather-info {
+    margin: 0 4%;
+}
+
+.table-container {
+    display: block;
+}
+
+.five-forecast-table {
+    margin: 10px auto;
+    width: 100%;
+    border-spacing: .3em;
+}
+
+table th, table td {
+    text-align: center;
+}
+
+table tbody tr th {
+    padding: .5em 1.5em;
+}
+
+table tbody tr td {
+    padding: .5em 1.5em;
+}
+
+table tbody tr td img {
+    padding: 0;
+}
+
+table tbody tr td p {
+    margin: 0;
+}
+
+table th {
+    background-color: #1D3557;
+    color: #f1faee;
+}
+
+table td {
+    background-color: rgb(243, 222, 140);
+}
+
+/* This is for the weather summary */
+.wstats {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h2#Location {
+    font-size: 1.7em;
+}
+
+
+/* FOr the section with cards */
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    margin: 0 8%;
+}
+
+.contact-info {
+    width: 80%;
+    margin: 1em auto 0;
+}
+
+
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/                       FOR THE RENTALS PAGE                      /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+
+
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/                  FOR THE RESERVATION PAGE                      /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/                  FOR THE TOURS PAGE                            /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+/* For the tours button */
+.toursBtn {
+    font-size: 1.5em;
+}
+
+
+.tours > section.odd img {
+    width: 50%;
+    float: left;
+    padding: 1em .5em 0 0;
+}
+
+.tours > section.even img {
+    width: 50%;
+    float: right;
+    padding: 1em 0  0 .5em;
+}
+
+  /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/                  FOR THE CONTACT US  PAGE.. Wot wot!             /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+.contact .mapContainer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
