@@ -12,7 +12,7 @@
             "walkIn": [
                 {
                     "halfDay": "$25",
-                    "fullDay ": "$35"
+                    "fullDay": "$35"
                 }
             ],
             "photo": "honda-metro-scooter.jpg"
@@ -24,13 +24,13 @@
             "Reservation": [
                 {
                     "halfDay": "$30",
-                    "fullDay ": "$40"
+                    "fullDay": "$40"
                 }
             ],
             "walkIn": [
                 {
                     "halfDay": "$35",
-                    "fullDay ": "$45"
+                    "fullDay": "$45"
                 }
             ],
             "photo": "honda-dio-scooter.jpg" 
@@ -42,13 +42,13 @@
             "Reservation": [
                 {
                     "halfDay": "$40",
-                    "fullDay ": "$50"
+                    "fullDay": "$50"
                 }
             ],
             "walkIn": [
                 {
                     "halfDay": "$45",
-                    "fullDay ": "$55"
+                    "fullDay": "$55"
                 }
             ],
             "photo": "honda-pcx-scooter.jpg"
@@ -60,13 +60,13 @@
             "Reservation": [
                 {
                     "halfDay": "$50",
-                    "fullDay ": "$70"
+                    "fullDay": "$70"
                 }
             ],
             "walkIn": [
                 {
                     "halfDay": "$60",
-                    "fullDay ": "$80"
+                    "fullDay": "$80"
                 }
             ],
             "photo": "honda-pioneer-atv.jpg"
@@ -78,13 +78,13 @@
             "Reservation": [
                 {
                     "halfDay": "$70",
-                    "fullDay ": "$100"
+                    "fullDay": "$100"
                 }
             ],
             "walkIn": [
                 {
                     "halfDay": "$85",
-                    "fullDay ": "$125"
+                    "fullDay": "$125"
                 }
             ],
             "photo": "jeep-wrangler-four-door.jpg"
@@ -96,13 +96,13 @@
             "Reservation": [
                 {
                     "halfDay": "$60",
-                    "fullDay ": "$85"
+                    "fullDay": "$85"
                 }
             ],
             "walkIn": [
                 {
                     "halfDay": "$70",
-                    "fullDay ": "$90"
+                    "fullDay": "$90"
                 }
             ],
             "photo": "jeep-wrangler-two-door.jpg"
