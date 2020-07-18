@@ -297,6 +297,29 @@ main h2 a:hover {
     padding: .5em 0;
 }
 
+/* For the cards table showing prices */
+table.priceTable {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: .2em;
+    margin-bottom: .3em;
+}
+
+table.priceTable th {
+    padding: .5em;
+    background-color: #457B9D;
+}
+
+table.priceTable th:first-child {
+    background-color: #1d3557;
+}
+
+table.priceTable td {
+    padding: .5em;
+    background-color: #457B9D;
+}
 
 /* FOr the weather summary */
 

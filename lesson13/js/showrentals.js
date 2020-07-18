@@ -38,6 +38,7 @@ fetch(rentalOptions)
         let reserveLink = document.createElement('a');
 
 
+
         h3.textContent = rentalType[i].name;
         img.setAttribute('src', "images/" + rentalType[i].photo);
         img.setAttribute('alt', rentalType[i].name + "image");
@@ -59,7 +60,7 @@ fetch(rentalOptions)
         reservePriceFullDay.textContent = rentalType[i].Reservation[0].fullDay;
         reserveLink.textContent = "Reserve Now";
         reserveLink.setAttribute('href', "reservation.html");
-
+        table.setAttribute('class', "priceTable");
 
         tRow1.appendChild(tEmpty);
         tRow1.appendChild(tHead1);
