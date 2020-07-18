@@ -177,8 +177,7 @@ picture img {
 
 /* wayfinder */
 #primaryNav li a.active {
-    color: #E63946;
-    
+    color: #E7C24F;
 }
 
 #primaryNav li a.active:hover {
@@ -743,12 +742,6 @@ div.tours {
     border: 2px solid black;
 }
 
-.contact .mapContainer {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-}
 
 
   /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *

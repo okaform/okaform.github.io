@@ -256,6 +256,17 @@ h2#Location {
     padding: 1em 0  0 .5em;
 }
 
+  /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/                  FOR THE CONTACT US  PAGE.. Wot wot!             /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+.contact .mapContainer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
 
 
 
