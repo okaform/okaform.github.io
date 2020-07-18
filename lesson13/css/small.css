@@ -298,6 +298,7 @@ main h2 a:hover {
 
 /* For the cards table showing prices */
 table.priceTable {
+    color: black;
     margin: 0;
     padding: 0;
     margin: 0 auto;
@@ -307,6 +308,7 @@ table.priceTable {
 }
 
 table.priceTable th {
+    color: black;
     padding: .5em;
     background-color: #457B9D;
 }
@@ -381,6 +383,7 @@ img.gmap {
     padding: 1em;
     background-color: #457B9D;
     box-sizing: border-box;
+    color: #F1FAEE;
 }
 
 .contact-info h3 {
