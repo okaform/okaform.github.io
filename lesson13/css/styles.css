@@ -200,9 +200,11 @@ main h2 a:hover { background-color: #E63946; }
 /* For the rental summary cards */
 .cards { display: block; padding: 1em 1em 0; text-align: center; background-color: #F1FAEE; box-shadow: 0 -3px 15px #7483af; }
 
-section { color: white; background-color: #1d3557; border-radius: 5px; margin-bottom: 1em; padding-bottom: .4em; }
-section section img { width: 100%; }
-section section h3, section section p { margin: 0; padding: .5em 0; }
+.cards section { color: white; background-color: #1d3557; border-radius: 5px; margin-bottom: 1em; padding-bottom: .4em; }
+
+.cards section img { width: 100%; }
+
+.cards section h3, .cards section p { margin: 0; padding: .5em 0; }
 
 /* For the cards table showing prices */
 table.priceTable { color: black; margin: 0; padding: 0; margin: 0 auto; border-collapse: separate; border-spacing: .2em; margin-bottom: .3em; }
