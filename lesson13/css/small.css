@@ -387,7 +387,7 @@ img.gmap {
 
 
 .cards section a {
-    color: #F1FAEE;
+    background-color: #F1FAEE;
     border: 2px solid black;
     padding: .5em;
     text-decoration: none;
@@ -402,6 +402,7 @@ img.gmap {
 
 .cards section a:hover {
     background-color: #E63946;
+    color: #F1FAEE;
 }
 
 
@@ -423,10 +424,15 @@ img.gmap {
     border: none;
     transition: 0.4s;
     border-radius: 12px 12px 0 0;
+    background-color: #1d3557;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border-bottom: 2px solid #F1FAEE;
 }
 
 .rentBtn:hover {
-    background-color: rgb(172, 125, 125);
+    background-color: #E63946;
 }
 
 .rentBtn:after {
@@ -453,8 +459,10 @@ img.gmap {
     width: 100%;
 }
 
-.formContainer div {
-    background-color: #E7C24F;
+.formContainer > div {
+    font-weight: bold;
+    background-color: #1D3557;
+    color: #F1FAEE;
     border-radius: 12px;
 }
 
@@ -474,8 +482,9 @@ form fieldset {
     margin: 1.8em 0;
     border: 2px solid #454955;
     border-radius: 10px;
-    background-color: #E7C24F;
+    background-color: #A8DADC;
     padding: .5rem 2%;
+    
 }
 
 form legend, .rentInfo legend {
@@ -523,15 +532,20 @@ form label.sbs {
 
 /* for the submit button */
 form input.submitBtn {
+    font-weight: bold;
     border: none;
-    background-color: #454955;
-    color: white;
+    background-color: #1D3557;
+    color: #F1FAEE;
     border-radius: 1rem;
     padding: .5rem 1rem;
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 18em;
     cursor: pointer;
+}
+
+form input.submitBtn:hover {
+    background-color: #E63946;
 }
 
 /* higlight the required inputs */
@@ -598,6 +612,7 @@ div.tours {
 
 
 .toursBtn {
+    color: #F1FAEE;
     padding: 1em;
     width: 100%;
     margin: 0 auto .5em;
@@ -605,14 +620,14 @@ div.tours {
     border: none;
     transition: 0.6s;
     border-radius: 12px 12px 0 0;
-    background-color: lightcyan;
+    background-color: #1D3557;
     font-weight: bold;
     font-size: 1.2em;
     cursor: pointer;
 }
 
 .toursBtn:hover {
-    background-color: rgb(172, 125, 125);
+    background-color: #E63946;
 }
 
 .tours > p {
@@ -627,6 +642,12 @@ div.tours {
 
 .tours > section a {
     text-decoration: none;
+    color: #457B9D;
+    font-weight: bold;
+}
+
+.tours > section a:hover {
+    color: #E63946;
 }
 
 /* For the images in the section */
@@ -635,11 +656,12 @@ div.tours {
     margin: 0 auto;
 }
 
+
 /* for the score card section */
 .tours section div .score-card {
     list-style-type: none;
     padding: 0;
-    border: 2px solid tomato;
+    border: 1px solid black;
 }
 
 .tours section div .score-card li {
@@ -650,19 +672,21 @@ div.tours {
 .tours section div .score-card li:first-child {
     font-weight: bold;
     font-size: 1em;
-    background-color: darkgray;
+    color: #F1FAEE;
+    background-color: #1D3557;
 }
 
 /* for the key-info section */
 .tours section div .key-info {
-    border: 2px solid tomato;
+    border: 1px solid black;
     margin-bottom: .5em;
 }
 
 .tours section div .key-info h3,
 .tours section div .key-info h4 {
     font-weight: lighter;
-    background-color: darkgray;
+    color: #F1FAEE;
+    background-color: #1D3557;
     padding: 1em;
     margin: 0;  
 }
