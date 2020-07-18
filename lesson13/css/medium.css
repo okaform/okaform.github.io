@@ -187,11 +187,12 @@ table tbody tr td p {
 }
 
 table th {
-    background-color: #ccc;
+    background-color: #1D3557;
+    color: #f1faee;
 }
 
 table td {
-    background-color: cornsilk;
+    background-color: rgb(243, 222, 140);
 }
 
 /* This is for the weather summary */
