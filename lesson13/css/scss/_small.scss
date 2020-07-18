@@ -5,17 +5,17 @@
 
 body {
     font-size: 18px;
-    background-color: #F1FAEE;
+    background-color: $secondaryColor;
     
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: $fontHeaderFamily;
 }
 
 
 p, li, figcaption, span, a, button, form, table {
-    font-family: 'Comic Neue', cursive;
+    font-family: $fontBodyFamily;
 }
 
 /* for the header and navigation */
@@ -25,7 +25,7 @@ p, li, figcaption, span, a, button, form, table {
     position: relative;
     margin: 0 auto;
     padding-top: .7em;
-    width: 92%;
+    width: $smallWidth;
 }
 
 /* For the button */
@@ -41,12 +41,12 @@ p#changeSymbol {
 
 /* FOr the navigation container */
 .stickyContainer {
-    background-color: #1D3557;
+    background-color: $primaryColor;
     position: fixed;
     left: 0;
     right: 0;
     z-index: 4; 
-    color: #F1FAEE;
+    color: $secondaryColor;
     font-weight: bold;
 }
 
@@ -59,7 +59,7 @@ nav {
     z-index: 1;
     transition: 0.5s;
     overflow-x: hidden;
-    background-color: #1D3557;
+    background-color: $primaryColor;
 }
 
 
@@ -118,7 +118,7 @@ header p {
 
 main {
     margin: 0 auto;
-    background-color: #F1FAEE;
+    background-color: $secondaryColor;
 }
 
 /* THis is for the footer section */
@@ -126,7 +126,7 @@ main {
 footer {
     margin: 0 auto;
     padding: 0;
-    background-color: #1d3557;
+    background-color: $primaryColor;
     padding: 5px;
     text-align: center;
     color: white;
@@ -182,7 +182,7 @@ picture img {
 
 #primaryNav li a.active:hover {
     background-color: #E63946;
-    color: #F1FAEE;
+    color: $secondaryColor;
 }
 
 main h2 {
@@ -219,7 +219,7 @@ main p.weAreCozumel {
     font-size: 2em;
     cursor: pointer;
     background-color: transparent;
-    color: #F1FAEE;
+    color: $secondaryColor;
     position: absolute;
     top: 50%;
     bottom: 50%;
@@ -259,7 +259,7 @@ main h2 a {
     border: 2px solid black;
     padding: .3em;
     font-size: .9em;
-    background-color: #1D3557;
+    background-color: $primaryColor;
     color: white;
 }
 
@@ -273,13 +273,13 @@ main h2 a:hover {
     display: block;
     padding: 1em 1em 0;
     text-align: center;
-    background-color: #F1FAEE;
+    background-color: $secondaryColor;
     box-shadow: 0 -3px 15px #7483af;
 }
 
 .cards section {
     color: white;
-    background-color: #1d3557;
+    background-color: $primaryColor;
     border-radius: 5px;
     margin-bottom: 1em;
     padding-bottom: .4em;
@@ -314,8 +314,8 @@ table.priceTable th {
 }
 
 table.priceTable th:first-child {
-    background-color: #1d3557;
-    color: #1D3557;
+    background-color: $primaryColor;
+    color: $primaryColor;
 }
 
 table.priceTable td {
@@ -412,7 +412,7 @@ img.gmap {
 
 
 .cards section a {
-    background-color: #F1FAEE;
+    background-color: $secondaryColor;
     border: 2px solid black;
     padding: .5em;
     text-decoration: none;
@@ -420,14 +420,14 @@ img.gmap {
     margin: 0 auto .5em;
     display: block;
     font-weight: bold;
-}
-.cards section p {
+
+ p {
     font-weight: bold;
 }
-
-.cards section a:hover {
+a:hover {
     background-color: #E63946;
-    color: #F1FAEE;
+    color: $secondaryColor;
+}
 }
 
 
@@ -449,11 +449,11 @@ img.gmap {
     border: none;
     transition: 0.4s;
     border-radius: 12px 12px 0 0;
-    background-color: #1d3557;
+    background-color: $primaryColor;
     font-weight: bold;
     cursor: pointer;
     color: white;
-    border-bottom: 2px solid #F1FAEE;
+    border-bottom: 2px solid $secondaryColor;
 }
 
 .rentBtn:hover {
@@ -486,13 +486,13 @@ img.gmap {
 
 .formContainer > div {
     font-weight: bold;
-    background-color: #1D3557;
-    color: #F1FAEE;
+    background-color: $primaryColor;
+    color: $secondaryColor;
     border-radius: 12px;
 }
 
 .rentInfo {
-    width: 92%;
+    width: $smallWidth;
     margin: 0 auto;
     transition: 0.5s ease-in;
 }
@@ -560,8 +560,8 @@ form label.sbs {
 form input.submitBtn {
     font-weight: bold;
     border: none;
-    background-color: #1D3557;
-    color: #F1FAEE;
+    background-color: $primaryColor;
+    color: $secondaryColor;
     border-radius: 1rem;
     padding: .5rem 1rem;
     margin: 0 0 2rem 2%;
@@ -633,12 +633,12 @@ a.owm {
 
 div.tours {
     margin: 0 auto;
-    width: 92%;
+    width: $smallWidth;
 }
 
 
 .toursBtn {
-    color: #F1FAEE;
+    color: $secondaryColor;
     padding: 1em;
     width: 100%;
     margin: 0 auto .5em;
@@ -646,7 +646,7 @@ div.tours {
     border: none;
     transition: 0.6s;
     border-radius: 12px 12px 0 0;
-    background-color: #1D3557;
+    background-color: $primaryColor;
     font-weight: bold;
     font-size: 1.2em;
     cursor: pointer;
@@ -698,8 +698,8 @@ div.tours {
 .tours section div .score-card li:first-child {
     font-weight: bold;
     font-size: 1em;
-    color: #F1FAEE;
-    background-color: #1D3557;
+    color: $secondaryColor;
+    background-color: $primaryColor;
 }
 
 /* for the key-info section */
@@ -711,8 +711,8 @@ div.tours {
 .tours section div .key-info h3,
 .tours section div .key-info h4 {
     font-weight: lighter;
-    color: #F1FAEE;
-    background-color: #1D3557;
+    color: $secondaryColor;
+    background-color: $primaryColor;
     padding: 1em;
     margin: 0;  
 }
@@ -728,7 +728,7 @@ div.tours {
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
 .contact {
-    width: 92%;
+    width: $smallWidth;
     margin: 0 auto;
 }
 
@@ -758,9 +758,9 @@ main.resources table {
 }
 
 main.resources table tbody tr th {
-    background-color: #1D3557;
+    background-color: $primaryColor;
     padding: .5em 1.5em;
-    color: #F1FAEE;
+    color: $secondaryColor;
     text-align: left;
 
 }
@@ -777,5 +777,5 @@ main.resources table tbody tr td a {
 
 main.resources table tbody tr td a:hover {
     background-color: #E63946;
-    color: #F1FAEE;
+    color: $secondaryColor;
 }
