@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
-p, li, figcaption, span, a, button, form {
+p, li, figcaption, span, a, button, form, table {
     font-family: 'Comic Neue', cursive;
 }
 
@@ -748,4 +748,38 @@ div.tours {
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+}
+
+
+  /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+/                  FOR THE RESOURCE PAGE.. Wot wot!             /
+/                                                                /
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+main.resources table {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+main.resources table tbody tr th {
+    background-color: #1D3557;
+    padding: .5em 1.5em;
+    color: #F1FAEE;
+    text-align: left;
+
+}
+
+main.resources table tbody tr td {
+    text-align: left;
+    background-color: #A8DADC;
+    padding: .3em 0 .3em .3em;
+} 
+
+main.resources table tbody tr td a {
+    text-decoration: none;
+}
+
+main.resources table tbody tr td a:hover {
+    background-color: #E63946;
+    color: #F1FAEE;
 }
